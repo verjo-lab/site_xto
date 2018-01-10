@@ -1,0 +1,109 @@
+<!DOCTYPE html>   
+<html lang="en">   
+<head>   
+<meta charset="utf-8">   
+<title>Final Output</title>
+
+<meta name="description" content="Bootstrap.">  
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">   
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css">
+<script type="text/javascript" src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="static/progressbar/progressbar.js"></script>
+<link rel="stylesheet" type="text/css" href="static/progressbar/skins/big-green/progressbar.css">
+
+
+
+
+
+
+
+
+</head>
+<body style="margin:20px auto">
+
+
+
+
+
+<div class="container">
+<div id="progressBar" class="big-green"><div></div></div>
+
+<div class="row header" style="text-align:center;color:#db2e2e;">
+<img src="../static/logo_db.png" alt="logo" width="450" height="300">
+<h3>Schistosoma mansoni LncRNAs DATABASE </h3>
+
+</div>
+<table id="myTable" class="table table-striped">
+        <thead>  
+          <tr>
+            {%  for c in col[:6]  %}
+                <th> {{  c }} </th>
+            {% endfor %}
+          </tr>  
+        </thead>
+
+
+
+
+        <tbody>
+              {% for x in dados %}
+                   {% if loop.index0 > (tamanho_total-2) %}
+
+                            <script> $('#progressBar').hide() </script>
+                    {% endif %}
+
+                {% if loop.index0 in up %}
+                    <script>
+                        progressBar({{ (loop.index0 * per_iteration)|round }}, $('#progressBar'));
+                    </script>
+                {% endif %}
+                      <tr>
+                      {% for v in x[:6]  %}
+                          {% if loop.index0 == 0 %}
+
+                            <td>
+                                <a  href= "{{url_gb }}{{ x[1] }}:{{ x[2] }}-{{ x[3] }}"> {{v}} </a>
+                            </td>
+
+                          {% else %}
+
+
+
+                                <td>{{v}}</td>
+
+
+                          {%  endif %}
+                        {% endfor %}
+                      </tr>
+              {% endfor %}
+
+        </tbody>
+
+
+
+
+
+
+
+</table>
+	  </div>
+
+
+
+
+
+</body>
+
+
+
+<script>
+
+
+
+$(document).ready(function(){
+    $('#myTable').dataTable();
+});
+</script>
+</html>  
