@@ -9,4 +9,11 @@ def index(request):
 
 def sm_view(request, gene_id):
     gene_obj = get_object_or_404(GeneLocation, gene_id = gene_id)
-    return redirect(gene_obj.link)
+
+    context = {
+            "LINC": gene_id,
+            'URL_FIG_7A': "/static/Fig7A_S3/" + gene_id + ".png",
+            "URL_FIG_6A": "/static/Fig6A/" + gene_id + ".png",
+            "URL_FIG_S5": "/static/FigS5/" + gene_id + ".png",
+    }
+    return render(request, 'smlinc.html', context)
