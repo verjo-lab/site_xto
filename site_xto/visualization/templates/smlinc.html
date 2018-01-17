@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block container-central %}
+    <div class="col-md-2">
+    <h4>Data Download</h4>
+        <hr>
+        Here will go this 's tsv file
+        <br/>
+    <h4>Citations</h4>
+        <hr>
+        Here will go this article citations
+        <br>
+    </div>
+    <div class="col-md-10">
+    <h1>{{ LINC }} Data</h1>
+        <hr>
+        <a href="{{ URL_FIG_7A }}" target="_blank"><img src="{{ URL_FIG_7A   }}" alt="" width="450" height="250"></a>
+        <a href="{{ URL_FIG_6A }}" target="_blank"><img src="{{ URL_FIG_6A   }}" alt="" width="450" height="250"></a>
+        <a href="{{ URL_FIG_S5 }}" target="_blank"><img src="{{ URL_FIG_S5   }}" alt="" width="450" height="250"></a>
+    </div>
+{% endblock container-central %}
