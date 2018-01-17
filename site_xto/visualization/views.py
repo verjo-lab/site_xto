@@ -12,6 +12,7 @@ def sm_view(request, gene_id):
 
     context = {
             "LINC": gene_id,
+            "GENE_OBJ": gene_obj,
             'URL_FIG_7A': "/static/Fig7A_S3/" + gene_id + ".png",
             "URL_FIG_6A": "/static/Fig6A/" + gene_id + ".png",
             "URL_FIG_S5": "/static/FigS5/" + gene_id + ".png",
