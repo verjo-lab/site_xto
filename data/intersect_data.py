@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import pandas as pd
 
 df = pd.read_excel("s2_table_genomic_loc_of_lncrnas.xlsx")

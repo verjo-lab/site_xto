@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block container-central %}
+    <div class="col-md-2">
+    <h4>Data Download</h4>
+        <hr>
+            <div id="fig7a_div_data">
+                <a href="{{ URL_FIG_7A_GENERIC }}-FCs.tsv">Figure 7A S3 Related FCs</a><br/>
+                <a href="{{ URL_FIG_7A_GENERIC }}-PCCs.tsv">Figure 7A S3 Related PCCs</a>
+            </div>
+            <div id="fig6a_div_data">
+                <a href="{{ URL_FIG_6A_GENERIC }}-FCs.tsv">Figure 6A Related FCs</a><br/>
+                <a href="{{ URL_FIG_6A_GENERIC }}-PCCs.tsv">Figure 6A Related PCCs</a>
+            </div>
+            <div id="figs5_div_data">
+                <a href="{{ URL_FIG_S5_GENERIC }}-FCs.tsv">Figure S5 Related FCs</a><br/>
+                <a href="{{ URL_FIG_S5_GENERIC }}-PCCs.tsv">Figure S5 Related PCCs</a>
+            </div>
+        <br/>
+    <h4>Citations</h4>
+        <hr>
+        Here will go this article citations
+        <br>
+    </div>
+    <div class="col-md-10">
+    <h1>{{ LINC }} Data</h1>
+    <p>Chromosome: <b>{{ GENE_OBJ.chromosome }}</b> - Coordinate: <b>{{ GENE_OBJ.chromosome }}:{{ GENE_OBJ.chromosome_start }}-{{ GENE_OBJ.chromosome_end }}</b> - Strand: <b>{{ GENE_OBJ.strand }}</b></p>
+        <hr>
+        <div class="col-md-6" style="float: left;" id="fig7a_div">
+            <a href="{{ URL_FIG_7A }}" target="_blank">
+                <figure>
+                    <img src="{{ URL_FIG_7A }}" id="fig7a" alt="" width="450" height="250" class="figure-img" onload="loadImage()">
+                    <figcaption>Fig. 7A S3 for {{ LINC }} with r => 0.5 or r <= -0.5</figcaption>
+                </figure>
+            </a>
+            <br>
+            <figure>
+                <a href="{{ URL_FIG_6A }}" target="_blank" id="fig6a_div">
+                    <img src="{{ URL_FIG_6A }}" id="fig6a" alt="" width="450" height="250" class="figure-img" onload="loadImage()">
+                    <figcaption>Fig. 6A for {{ LINC }} with r => 0.8 or r <= -0.8</figcaption>
+                </a>
+            </figure>
+        </div>
+        <div class="col-md-6" style="float: right;" id="figs5_div">
+            <figure>
+            <a href="{{ URL_FIG_S5 }}" target="_blank">
+                <img src="{{ URL_FIG_S5 }}" id="figs5" alt="" width="450" height="250" class="figure-img" onerror="unloadImage()">
+                <figcaption>Fig. S5 for {{ LINC }} with  r => 0.9 or r <= -0.9</figcaption>
+            </a>
+            </figure>
+        </div>
+    </div>
+<script type="text/javascript">
+    var img = document.getElementById("fig7a");
+    img.onerror = function () {
+        var div = document.getElementById("fig7a_div");
+        div.style.display = "none";
+        var divdata = document.getElementById("fig7a_div_data");
+        divdata.style.display = "none";
+    };
+
+    var img2 = document.getElementById("fig6a");
+    img2.onerror = function () {
+        var div = document.getElementById("fig6a_div");
+        div.style.display = "none";
+        var divdata = document.getElementById("fig6a_div_data");
+        divdata.style.display = "none";
+    };
+
+    var img3 = document.getElementById("figs5");
+    img3.onerror = function () {
+        var div = document.getElementById("figs5_div");
+        div.style.display = "none";
+        var divdata = document.getElementById("figs5_div_data");
+        divdata.style.display = "none";
+    };
+</script>
+{% endblock container-central %}
