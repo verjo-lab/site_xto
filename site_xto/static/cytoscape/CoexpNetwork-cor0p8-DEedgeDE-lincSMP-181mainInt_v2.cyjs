@@ -1,0 +1,2956 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.6.0",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "shared_name" : "GO-DE-2359SMPs-cor0p8-181lincRNAs",
+    "name" : "GO-DE-2359SMPs-cor0p8-181lincRNAs",
+    "SUID" : 71579,
+    "__Annotations" : [ "" ],
+    "selected" : true
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "71658",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 8.94427190999916,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.3240E-6",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 3.4573916154330067,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "38",
+        "shared_name" : "30286",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "dynein complex",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "3.4883E-4",
+        "name" : "dynein complex",
+        "SUID" : 71658,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "20"
+      },
+      "position" : {
+        "x" : -1070.7509799722184,
+        "y" : -78.60317993164062
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71657",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 9.797958971132712,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.6415E-6",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 3.4573916154330067,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "51",
+        "shared_name" : "5615",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "extracellular space",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "3.4883E-4",
+        "name" : "extracellular space",
+        "SUID" : 71657,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "24"
+      },
+      "position" : {
+        "x" : -1847.4404330972184,
+        "y" : -112.54254913330078
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71656",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 13.416407864998739,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.5463E-2",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.3641644844688411,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "184",
+        "shared_name" : "4871",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "signal transducer activity",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4.3235E-1",
+        "name" : "signal transducer activity",
+        "SUID" : 71656,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "45"
+      },
+      "position" : {
+        "x" : 465.6167149648959,
+        "y" : -128.73402011131512
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71655",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 33.166247903554,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9998E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1827",
+        "shared_name" : "3824",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "catalytic activity",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "catalytic activity",
+        "SUID" : 71655,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "275"
+      },
+      "position" : {
+        "x" : 353.152390013724,
+        "y" : 157.136127593763
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71654",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 12.489995996796797,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "7.0049E-4",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 1.2896376745514282,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "132",
+        "shared_name" : "4872",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "receptor activity",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5.1329E-2",
+        "name" : "receptor activity",
+        "SUID" : 71654,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "39"
+      },
+      "position" : {
+        "x" : 457.8117833242709,
+        "y" : -248.8522299501823
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71653",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 7.745966692414834,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.2126E-5",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 2.668101354383789,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "27",
+        "shared_name" : "5578",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "proteinaceous extracellular matrix",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2.1473E-3",
+        "name" : "proteinaceous extracellular matrix",
+        "SUID" : 71653,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "15"
+      },
+      "position" : {
+        "x" : -1792.1339145425309,
+        "y" : 129.6048583984375
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71652",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 40.049968789001575,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.6248E-9",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 6.070433607735844,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1784",
+        "shared_name" : "16020",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "membrane",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "8.5029E-7",
+        "name" : "membrane",
+        "SUID" : 71652,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "401"
+      },
+      "position" : {
+        "x" : -1561.6967807534684,
+        "y" : 164.85630798339844
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71651",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 10.770329614269007,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5.5720E-5",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 2.1307469648760584,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "79",
+        "shared_name" : "4930",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "G-protein coupled receptor activity",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "7.4004E-3",
+        "name" : "G-protein coupled receptor activity",
+        "SUID" : 71651,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "29"
+      },
+      "position" : {
+        "x" : 418.0776524648959,
+        "y" : -472.49367892479165
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71650",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 11.489125293076057,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2.1738E-3",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.9152005960503494,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "113",
+        "shared_name" : "4888",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "transmembrane receptor activity",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.2156E-1",
+        "name" : "transmembrane receptor activity",
+        "SUID" : 71650,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "33"
+      },
+      "position" : {
+        "x" : 442.6162266836459,
+        "y" : -363.5339010927604
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71649",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 13.2664991614216,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4.6575E-3",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.6822023971911686,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "168",
+        "shared_name" : "8324",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "cation transmembrane transporter activity",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2.0787E-1",
+        "name" : "cation transmembrane transporter activity",
+        "SUID" : 71649,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "44"
+      },
+      "position" : {
+        "x" : 998.5830235586459,
+        "y" : 134.78274929786457
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71648",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 13.856406460551018,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2.3190E-2",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.27113017149547075,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "203",
+        "shared_name" : "15075",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ion transmembrane transporter activity",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5.3564E-1",
+        "name" : "ion transmembrane transporter activity",
+        "SUID" : 71648,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "48"
+      },
+      "position" : {
+        "x" : 905.5465245352084,
+        "y" : 202.2272378232552
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71647",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 15.491933384829668,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "8.0097E-3",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.5885669226905712,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "249",
+        "shared_name" : "22891",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "substrate-specific transmembrane transporter activity",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2.5789E-1",
+        "name" : "substrate-specific transmembrane transporter activity",
+        "SUID" : 71647,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "60"
+      },
+      "position" : {
+        "x" : 789.9542393789584,
+        "y" : 226.0916177060677
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71646",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 11.832159566199232,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5.1203E-5",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 2.1394344014597926,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "102",
+        "shared_name" : "7186",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "G-protein coupled receptor protein signaling pathway",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "7.2538E-3",
+        "name" : "G-protein coupled receptor protein signaling pathway",
+        "SUID" : 71646,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "35"
+      },
+      "position" : {
+        "x" : -919.7382276559232,
+        "y" : 357.33428955078125
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71645",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 20.493901531919196,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9999E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "813",
+        "shared_name" : "6139",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "nucleobase, nucleoside, nucleotide and nucleic acid metabolic process",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "nucleobase, nucleoside, nucleotide and nucleic acid metabolic process",
+        "SUID" : 71645,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "105"
+      },
+      "position" : {
+        "x" : -271.3755872750638,
+        "y" : -158.52761840820312
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71644",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 20.591260281974,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "917",
+        "shared_name" : "44446",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "intracellular organelle part",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "intracellular organelle part",
+        "SUID" : 71644,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "106"
+      },
+      "position" : {
+        "x" : -1384.6911655190934,
+        "y" : -143.5146942138672
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71643",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 15.874507866387544,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9921E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "484",
+        "shared_name" : "43228",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "non-membrane-bounded organelle",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "non-membrane-bounded organelle",
+        "SUID" : 71643,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "63"
+      },
+      "position" : {
+        "x" : -1511.2441440347184,
+        "y" : -339.0728759765625
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71642",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 6.324555320336759,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.5903E-6",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 3.4573916154330067,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "12",
+        "shared_name" : "15074",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "DNA integration",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "3.4883E-4",
+        "name" : "DNA integration",
+        "SUID" : 71642,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "10"
+      },
+      "position" : {
+        "x" : -196.75220470670445,
+        "y" : -433.503662109375
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71641",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 21.071307505705477,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.4656E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "698",
+        "shared_name" : "16740",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "transferase activity",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "transferase activity",
+        "SUID" : 71641,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "111"
+      },
+      "position" : {
+        "x" : 233.7379307852084,
+        "y" : 154.5647164609505
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71640",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 25.612496949731394,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1382",
+        "shared_name" : "44260",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "cellular macromolecule metabolic process",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "cellular macromolecule metabolic process",
+        "SUID" : 71640,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "164"
+      },
+      "position" : {
+        "x" : -404.2054822945951,
+        "y" : -296.16943359375
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71639",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 27.27636339397171,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1489",
+        "shared_name" : "43170",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "macromolecule metabolic process",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "macromolecule metabolic process",
+        "SUID" : 71639,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "186"
+      },
+      "position" : {
+        "x" : -510.1995313668607,
+        "y" : -228.190673828125
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71638",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 17.549928774784245,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9990E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "602",
+        "shared_name" : "90304",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "nucleic acid metabolic process",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "nucleic acid metabolic process",
+        "SUID" : 71638,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "77"
+      },
+      "position" : {
+        "x" : -232.3500440621732,
+        "y" : -272.3463439941406
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71637",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 16.61324772583615,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9878E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "516",
+        "shared_name" : "9059",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "macromolecule biosynthetic process",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "macromolecule biosynthetic process",
+        "SUID" : 71637,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "69"
+      },
+      "position" : {
+        "x" : -574.2431715035794,
+        "y" : -331.6799621582031
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71636",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 19.8997487421324,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9842E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "699",
+        "shared_name" : "9058",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "biosynthetic process",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "biosynthetic process",
+        "SUID" : 71636,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "99"
+      },
+      "position" : {
+        "x" : -596.2004468942044,
+        "y" : -218.70645141601562
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71635",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 15.874507866387544,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9921E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "484",
+        "shared_name" : "43232",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "intracellular non-membrane-bounded organelle",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "intracellular non-membrane-bounded organelle",
+        "SUID" : 71635,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "63"
+      },
+      "position" : {
+        "x" : -1392.1046176675309,
+        "y" : -322.91455078125
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71634",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 28.21347195933177,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1569",
+        "shared_name" : "43229",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "intracellular organelle",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "intracellular organelle",
+        "SUID" : 71634,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "199"
+      },
+      "position" : {
+        "x" : -1455.9458041909684,
+        "y" : -215.76315307617188
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71633",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 21.908902300206645,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1001",
+        "shared_name" : "32991",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "macromolecular complex",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "macromolecular complex",
+        "SUID" : 71633,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "120"
+      },
+      "position" : {
+        "x" : -1426.4923129800309,
+        "y" : -45.1246452331543
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71632",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 12.649110640673518,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.2391E-3",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 1.0980620066101143,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "140",
+        "shared_name" : "44430",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "cytoskeletal part",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "7.9788E-2",
+        "name" : "cytoskeletal part",
+        "SUID" : 71632,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "40"
+      },
+      "position" : {
+        "x" : -1271.5164829019059,
+        "y" : -189.7368621826172
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71631",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 13.2664991614216,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.5141E-2",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.3641644844688411,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "179",
+        "shared_name" : "5856",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "cytoskeleton",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4.3235E-1",
+        "name" : "cytoskeleton",
+        "SUID" : 71631,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "44"
+      },
+      "position" : {
+        "x" : -1266.0040317300309,
+        "y" : -303.248291015625
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71630",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 16.1245154965971,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.7506E-2",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.33161372354628293,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "283",
+        "shared_name" : "22892",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "substrate-specific transporter activity",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4.6600E-1",
+        "name" : "substrate-specific transporter activity",
+        "SUID" : 71630,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "65"
+      },
+      "position" : {
+        "x" : 697.6886143789584,
+        "y" : 162.519672515638
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71629",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 38.98717737923585,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.7800E-10",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 6.899352797777825,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1649",
+        "shared_name" : "44425",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "membrane part",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.2608E-7",
+        "name" : "membrane part",
+        "SUID" : 71629,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "380"
+      },
+      "position" : {
+        "x" : -1668.0695834878434,
+        "y" : 158.82432556152344
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71628",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 10.0,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2.9263E-5",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 2.3524444026220825,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "62",
+        "shared_name" : "15077",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "monovalent inorganic cation transmembrane transporter activity",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4.4418E-3",
+        "name" : "monovalent inorganic cation transmembrane transporter activity",
+        "SUID" : 71628,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "25"
+      },
+      "position" : {
+        "x" : 1048.8099522695834,
+        "y" : -80.51502597069012
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71627",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 10.392304845413264,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "3.0844E-4",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 1.5636830507308561,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "78",
+        "shared_name" : "22890",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "inorganic cation transmembrane transporter activity",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2.7310E-2",
+        "name" : "inorganic cation transmembrane transporter activity",
+        "SUID" : 71627,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "27"
+      },
+      "position" : {
+        "x" : 1048.388199339896,
+        "y" : 31.237945678479804
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71626",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 21.72556098240043,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9995E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "871",
+        "shared_name" : "6807",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "nitrogen compound metabolic process",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "nitrogen compound metabolic process",
+        "SUID" : 71626,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "118"
+      },
+      "position" : {
+        "x" : -437.1869276070951,
+        "y" : -11.118888854980469
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71625",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 13.711309200802088,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9991E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "406",
+        "shared_name" : "16772",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "transferase activity, transferring phosphorus-containing groups",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "transferase activity, transferring phosphorus-containing groups",
+        "SUID" : 71625,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "47"
+      },
+      "position" : {
+        "x" : 129.83271838286464,
+        "y" : 100.19192898536457
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71624",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 8.48528137423857,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.7996E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.15185844882011512,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "80",
+        "shared_name" : "16779",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "nucleotidyltransferase activity",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "7.0492E-1",
+        "name" : "nucleotidyltransferase activity",
+        "SUID" : 71624,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "18"
+      },
+      "position" : {
+        "x" : 57.621437560110735,
+        "y" : 9.52063763404621
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71623",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 39.74921382870358,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2713",
+        "shared_name" : "9987",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "cellular process",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "cellular process",
+        "SUID" : 71623,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "395"
+      },
+      "position" : {
+        "x" : -509.83899669889195,
+        "y" : -50.86451721191406
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71622",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 7.483314773547883,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2.6027E-6",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 3.2986162652865527,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "22",
+        "shared_name" : "6278",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "RNA-dependent DNA replication",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5.0279E-4",
+        "name" : "RNA-dependent DNA replication",
+        "SUID" : 71622,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "14"
+      },
+      "position" : {
+        "x" : -372.86072521451695,
+        "y" : -591.5610961914062
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71621",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 12.0,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2.7484E-4",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 1.5952884719681029,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "114",
+        "shared_name" : "15630",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "microtubule cytoskeleton",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2.5393E-2",
+        "name" : "microtubule cytoskeleton",
+        "SUID" : 71621,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "36"
+      },
+      "position" : {
+        "x" : -1163.2259555581559,
+        "y" : -239.01373291015625
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71620",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 16.61324772583615,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9850E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "513",
+        "shared_name" : "34645",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "cellular macromolecule biosynthetic process",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "cellular macromolecule biosynthetic process",
+        "SUID" : 71620,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "69"
+      },
+      "position" : {
+        "x" : -468.86170177701695,
+        "y" : -394.22088623046875
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71619",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 19.697715603592208,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9792E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "682",
+        "shared_name" : "44249",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "cellular biosynthetic process",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "cellular biosynthetic process",
+        "SUID" : 71619,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "97"
+      },
+      "position" : {
+        "x" : -500.6906202340482,
+        "y" : -287.8105163574219
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71618",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14.696938456699069,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.5835E-3",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 1.017085379181161,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "205",
+        "shared_name" : "7166",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "cell surface receptor linked signaling pathway",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.6142E-2",
+        "name" : "cell surface receptor linked signaling pathway",
+        "SUID" : 71618,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "54"
+      },
+      "position" : {
+        "x" : -862.081672480142,
+        "y" : 261.51220703125
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71617",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 48.12483766206386,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "3584",
+        "shared_name" : "8150",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "biological_process",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "biological_process",
+        "SUID" : 71617,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "579"
+      },
+      "position" : {
+        "x" : -613.713264277017,
+        "y" : -10.106170654296875
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71616",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 50.59644256269407,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "8.2037E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "3620",
+        "shared_name" : "5623",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "cell",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "cell",
+        "SUID" : 71616,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "640"
+      },
+      "position" : {
+        "x" : -1662.2790561440934,
+        "y" : -4.264427185058594
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71615",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 20.8806130178211,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "930",
+        "shared_name" : "44422",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "organelle part",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "organelle part",
+        "SUID" : 71615,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "109"
+      },
+      "position" : {
+        "x" : -1499.9043002847184,
+        "y" : -153.40823364257812
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71614",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 28.21347195933177,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1569",
+        "shared_name" : "43226",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "organelle",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "organelle",
+        "SUID" : 71614,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "199"
+      },
+      "position" : {
+        "x" : -1567.2607455972184,
+        "y" : -227.72412109375
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71613",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 31.937438845342623,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1845",
+        "shared_name" : "44238",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "primary metabolic process",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "primary metabolic process",
+        "SUID" : 71613,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "255"
+      },
+      "position" : {
+        "x" : -390.1204603219388,
+        "y" : -128.16415405273438
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71612",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 34.92849839314596,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2152",
+        "shared_name" : "8152",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "metabolic process",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "metabolic process",
+        "SUID" : 71612,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "305"
+      },
+      "position" : {
+        "x" : -524.608772089517,
+        "y" : -112.18820190429688
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71611",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 21.540659228538015,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9996E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "861",
+        "shared_name" : "34641",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "cellular nitrogen compound metabolic process",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "cellular nitrogen compound metabolic process",
+        "SUID" : 71611,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "116"
+      },
+      "position" : {
+        "x" : -348.68726330045445,
+        "y" : -79.40918731689453
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71610",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 31.496031496047245,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1874",
+        "shared_name" : "44237",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "cellular metabolic process",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "cellular metabolic process",
+        "SUID" : 71610,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "248"
+      },
+      "position" : {
+        "x" : -442.0366590524076,
+        "y" : -173.24261474609375
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71609",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 7.483314773547883,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4.5262E-7",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 3.862003792044934,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "20",
+        "shared_name" : "3964",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "RNA-directed DNA polymerase activity",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.3740E-4",
+        "name" : "RNA-directed DNA polymerase activity",
+        "SUID" : 71609,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "14"
+      },
+      "position" : {
+        "x" : -18.951348771066023,
+        "y" : -205.7855795595573
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71608",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 7.483314773547883,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.7946E-4",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 1.7196919145877765,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "29",
+        "shared_name" : "34061",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "DNA polymerase activity",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.9068E-2",
+        "name" : "DNA polymerase activity",
+        "SUID" : 71608,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "14"
+      },
+      "position" : {
+        "x" : 12.199150572806047,
+        "y" : -97.84281527733074
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71607",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 8.717797887081348,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4.2407E-2",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.22050763219212755,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "71",
+        "shared_name" : "6260",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "DNA replication",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "6.0186E-1",
+        "name" : "DNA replication",
+        "SUID" : 71607,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "19"
+      },
+      "position" : {
+        "x" : -375.3511121774076,
+        "y" : -473.472900390625
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71606",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 10.583005244258363,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4.7918E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "152",
+        "shared_name" : "6259",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "DNA metabolic process",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "DNA metabolic process",
+        "SUID" : 71606,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "28"
+      },
+      "position" : {
+        "x" : -300.8268507027982,
+        "y" : -374.26300048828125
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71605",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 9.797958971132712,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4.7451E-4",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 1.4277608545329026,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "68",
+        "shared_name" : "5875",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "microtubule associated complex",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "3.7346E-2",
+        "name" : "microtubule associated complex",
+        "SUID" : 71605,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "24"
+      },
+      "position" : {
+        "x" : -1182.6837192300309,
+        "y" : -117.57369995117188
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71604",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 19.595917942265423,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9995E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "733",
+        "shared_name" : "43234",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "protein complex",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "protein complex",
+        "SUID" : 71604,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "96"
+      },
+      "position" : {
+        "x" : -1289.6546664956559,
+        "y" : -45.446231842041016
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71603",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 17.549928774784245,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0585E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.15185844882011512,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "375",
+        "shared_name" : "23033",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "signaling pathway",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "7.0492E-1",
+        "name" : "signaling pathway",
+        "SUID" : 71603,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "77"
+      },
+      "position" : {
+        "x" : -789.802375605142,
+        "y" : 169.96078491210938
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71602",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 19.078784028338912,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5.6665E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "511",
+        "shared_name" : "23052",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "signaling",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "signaling",
+        "SUID" : 71602,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "91"
+      },
+      "position" : {
+        "x" : -705.1486890817044,
+        "y" : 81.38068389892578
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71601",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 38.41874542459709,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "3.1001E-13",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 9.200844244159017,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1529",
+        "shared_name" : "16021",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "integral to membrane",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "6.2973E-10",
+        "name" : "integral to membrane",
+        "SUID" : 71601,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "369"
+      },
+      "position" : {
+        "x" : -1902.1329379800309,
+        "y" : 264.65924072265625
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71600",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 38.41874542459709,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5.9269E-13",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 9.200844244159017,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1535",
+        "shared_name" : "31224",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "intrinsic to membrane",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "6.2973E-10",
+        "name" : "intrinsic to membrane",
+        "SUID" : 71600,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "369"
+      },
+      "position" : {
+        "x" : -1781.6641879800309,
+        "y" : 237.26654052734375
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71599",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 13.416407864998739,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.5463E-2",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.3641644844688411,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "184",
+        "shared_name" : "60089",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "molecular transducer activity",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4.3235E-1",
+        "name" : "molecular transducer activity",
+        "SUID" : 71599,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "45"
+      },
+      "position" : {
+        "x" : 469.3316807852084,
+        "y" : -6.069442627184259
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71598",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 52.91502622129181,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4274",
+        "shared_name" : "3674",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "molecular_function",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "molecular_function",
+        "SUID" : 71598,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "700"
+      },
+      "position" : {
+        "x" : 472.2131505117709,
+        "y" : 119.37195217872394
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71597",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 31.811947441173732,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1981",
+        "shared_name" : "44424",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "intracellular part",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "intracellular part",
+        "SUID" : 71597,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "253"
+      },
+      "position" : {
+        "x" : -1486.5712924722184,
+        "y" : -71.50334930419922
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71596",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 12.649110640673518,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2.0007E-9",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 6.070433607735844,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "88",
+        "shared_name" : "5576",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "extracellular region",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "8.5029E-7",
+        "name" : "extracellular region",
+        "SUID" : 71596,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "40"
+      },
+      "position" : {
+        "x" : -1684.4392123940934,
+        "y" : -164.6605224609375
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71595",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 51.45872132107443,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4.8258E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "3672",
+        "shared_name" : "5575",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "cellular_component",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "cellular_component",
+        "SUID" : 71595,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "662"
+      },
+      "position" : {
+        "x" : -1551.4711948159684,
+        "y" : -103.40824127197266
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71594",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 34.23448553724738,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2296",
+        "shared_name" : "5622",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "intracellular",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "intracellular",
+        "SUID" : 71594,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "293"
+      },
+      "position" : {
+        "x" : -1462.3710971597184,
+        "y" : 49.20948028564453
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71593",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 50.556898639058154,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "7.9986E-1",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "3609",
+        "shared_name" : "44464",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "cell part",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
+        "name" : "cell part",
+        "SUID" : 71593,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "639"
+      },
+      "position" : {
+        "x" : -1572.4785190347184,
+        "y" : 44.89921569824219
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71592",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 7.745966692414834,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2.1804E-5",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 2.448039330063409,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "28",
+        "shared_name" : "31012",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "extracellular matrix",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "3.5642E-3",
+        "name" : "extracellular matrix",
+        "SUID" : 71592,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "15"
+      },
+      "position" : {
+        "x" : -1805.8155551675309,
+        "y" : 21.975139617919922
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71591",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 11.661903789690601,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "3.9550E-9",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 5.853650330438071,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "70",
+        "shared_name" : "44421",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "extracellular region part",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.4007E-6",
+        "name" : "extracellular region part",
+        "SUID" : 71591,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "34"
+      },
+      "position" : {
+        "x" : -1733.6894565347184,
+        "y" : -73.8078842163086
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71590",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 16.0,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.8797E-2",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.32577440993244666,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "279",
+        "shared_name" : "22857",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "transmembrane transporter activity",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4.7231E-1",
+        "name" : "transmembrane transporter activity",
+        "SUID" : 71590,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "64"
+      },
+      "position" : {
+        "x" : 678.3014073477084,
+        "y" : 258.7388345029427
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71589",
+        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 16.97056274847714,
+        "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "6.1457E-2",
+        "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.15185844882011512,
+        "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "338",
+        "shared_name" : "5215",
+        "description_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "transporter activity",
+        "adjustedPValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "7.0492E-1",
+        "name" : "transporter activity",
+        "SUID" : 71589,
+        "N_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5345",
+        "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "ellipse",
+        "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
+        "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
+        "selected" : false,
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "72"
+      },
+      "position" : {
+        "x" : 584.4264073477084,
+        "y" : 182.90410244727863
+      },
+      "selected" : false
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "71748",
+        "source" : "71656",
+        "target" : "71654",
+        "shared_name" : "4871 (pp) 4872",
+        "shared_interaction" : "pp",
+        "name" : "4871 (pp) 4872",
+        "interaction" : "pp",
+        "SUID" : 71748,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71747",
+        "source" : "71655",
+        "target" : "71641",
+        "shared_name" : "3824 (pp) 16740",
+        "shared_interaction" : "pp",
+        "name" : "3824 (pp) 16740",
+        "interaction" : "pp",
+        "SUID" : 71747,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71746",
+        "source" : "71654",
+        "target" : "71650",
+        "shared_name" : "4872 (pp) 4888",
+        "shared_interaction" : "pp",
+        "name" : "4872 (pp) 4888",
+        "interaction" : "pp",
+        "SUID" : 71746,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71745",
+        "source" : "71652",
+        "target" : "71629",
+        "shared_name" : "16020 (pp) 44425",
+        "shared_interaction" : "pp",
+        "name" : "16020 (pp) 44425",
+        "interaction" : "pp",
+        "SUID" : 71745,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71744",
+        "source" : "71650",
+        "target" : "71651",
+        "shared_name" : "4888 (pp) 4930",
+        "shared_interaction" : "pp",
+        "name" : "4888 (pp) 4930",
+        "interaction" : "pp",
+        "SUID" : 71744,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71743",
+        "source" : "71649",
+        "target" : "71627",
+        "shared_name" : "8324 (pp) 22890",
+        "shared_interaction" : "pp",
+        "name" : "8324 (pp) 22890",
+        "interaction" : "pp",
+        "SUID" : 71743,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71742",
+        "source" : "71648",
+        "target" : "71649",
+        "shared_name" : "15075 (pp) 8324",
+        "shared_interaction" : "pp",
+        "name" : "15075 (pp) 8324",
+        "interaction" : "pp",
+        "SUID" : 71742,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71741",
+        "source" : "71647",
+        "target" : "71648",
+        "shared_name" : "22891 (pp) 15075",
+        "shared_interaction" : "pp",
+        "name" : "22891 (pp) 15075",
+        "interaction" : "pp",
+        "SUID" : 71741,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71740",
+        "source" : "71645",
+        "target" : "71638",
+        "shared_name" : "6139 (pp) 90304",
+        "shared_interaction" : "pp",
+        "name" : "6139 (pp) 90304",
+        "interaction" : "pp",
+        "SUID" : 71740,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71739",
+        "source" : "71644",
+        "target" : "71632",
+        "shared_name" : "44446 (pp) 44430",
+        "shared_interaction" : "pp",
+        "name" : "44446 (pp) 44430",
+        "interaction" : "pp",
+        "SUID" : 71739,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71738",
+        "source" : "71643",
+        "target" : "71635",
+        "shared_name" : "43228 (pp) 43232",
+        "shared_interaction" : "pp",
+        "name" : "43228 (pp) 43232",
+        "interaction" : "pp",
+        "SUID" : 71738,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71737",
+        "source" : "71641",
+        "target" : "71625",
+        "shared_name" : "16740 (pp) 16772",
+        "shared_interaction" : "pp",
+        "name" : "16740 (pp) 16772",
+        "interaction" : "pp",
+        "SUID" : 71737,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71736",
+        "source" : "71640",
+        "target" : "71620",
+        "shared_name" : "44260 (pp) 34645",
+        "shared_interaction" : "pp",
+        "name" : "44260 (pp) 34645",
+        "interaction" : "pp",
+        "SUID" : 71736,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71735",
+        "source" : "71640",
+        "target" : "71606",
+        "shared_name" : "44260 (pp) 6259",
+        "shared_interaction" : "pp",
+        "name" : "44260 (pp) 6259",
+        "interaction" : "pp",
+        "SUID" : 71735,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71734",
+        "source" : "71639",
+        "target" : "71637",
+        "shared_name" : "43170 (pp) 9059",
+        "shared_interaction" : "pp",
+        "name" : "43170 (pp) 9059",
+        "interaction" : "pp",
+        "SUID" : 71734,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71733",
+        "source" : "71639",
+        "target" : "71640",
+        "shared_name" : "43170 (pp) 44260",
+        "shared_interaction" : "pp",
+        "name" : "43170 (pp) 44260",
+        "interaction" : "pp",
+        "SUID" : 71733,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71732",
+        "source" : "71638",
+        "target" : "71606",
+        "shared_name" : "90304 (pp) 6259",
+        "shared_interaction" : "pp",
+        "name" : "90304 (pp) 6259",
+        "interaction" : "pp",
+        "SUID" : 71732,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71731",
+        "source" : "71637",
+        "target" : "71620",
+        "shared_name" : "9059 (pp) 34645",
+        "shared_interaction" : "pp",
+        "name" : "9059 (pp) 34645",
+        "interaction" : "pp",
+        "SUID" : 71731,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71730",
+        "source" : "71636",
+        "target" : "71619",
+        "shared_name" : "9058 (pp) 44249",
+        "shared_interaction" : "pp",
+        "name" : "9058 (pp) 44249",
+        "interaction" : "pp",
+        "SUID" : 71730,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71729",
+        "source" : "71636",
+        "target" : "71637",
+        "shared_name" : "9058 (pp) 9059",
+        "shared_interaction" : "pp",
+        "name" : "9058 (pp) 9059",
+        "interaction" : "pp",
+        "SUID" : 71729,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71728",
+        "source" : "71635",
+        "target" : "71631",
+        "shared_name" : "43232 (pp) 5856",
+        "shared_interaction" : "pp",
+        "name" : "43232 (pp) 5856",
+        "interaction" : "pp",
+        "SUID" : 71728,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71727",
+        "source" : "71634",
+        "target" : "71644",
+        "shared_name" : "43229 (pp) 44446",
+        "shared_interaction" : "pp",
+        "name" : "43229 (pp) 44446",
+        "interaction" : "pp",
+        "SUID" : 71727,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71726",
+        "source" : "71634",
+        "target" : "71635",
+        "shared_name" : "43229 (pp) 43232",
+        "shared_interaction" : "pp",
+        "name" : "43229 (pp) 43232",
+        "interaction" : "pp",
+        "SUID" : 71726,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71725",
+        "source" : "71633",
+        "target" : "71604",
+        "shared_name" : "32991 (pp) 43234",
+        "shared_interaction" : "pp",
+        "name" : "32991 (pp) 43234",
+        "interaction" : "pp",
+        "SUID" : 71725,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71724",
+        "source" : "71632",
+        "target" : "71605",
+        "shared_name" : "44430 (pp) 5875",
+        "shared_interaction" : "pp",
+        "name" : "44430 (pp) 5875",
+        "interaction" : "pp",
+        "SUID" : 71724,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71723",
+        "source" : "71631",
+        "target" : "71621",
+        "shared_name" : "5856 (pp) 15630",
+        "shared_interaction" : "pp",
+        "name" : "5856 (pp) 15630",
+        "interaction" : "pp",
+        "SUID" : 71723,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71722",
+        "source" : "71631",
+        "target" : "71632",
+        "shared_name" : "5856 (pp) 44430",
+        "shared_interaction" : "pp",
+        "name" : "5856 (pp) 44430",
+        "interaction" : "pp",
+        "SUID" : 71722,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71721",
+        "source" : "71630",
+        "target" : "71647",
+        "shared_name" : "22892 (pp) 22891",
+        "shared_interaction" : "pp",
+        "name" : "22892 (pp) 22891",
+        "interaction" : "pp",
+        "SUID" : 71721,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71720",
+        "source" : "71629",
+        "target" : "71600",
+        "shared_name" : "44425 (pp) 31224",
+        "shared_interaction" : "pp",
+        "name" : "44425 (pp) 31224",
+        "interaction" : "pp",
+        "SUID" : 71720,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71719",
+        "source" : "71627",
+        "target" : "71628",
+        "shared_name" : "22890 (pp) 15077",
+        "shared_interaction" : "pp",
+        "name" : "22890 (pp) 15077",
+        "interaction" : "pp",
+        "SUID" : 71719,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71718",
+        "source" : "71626",
+        "target" : "71611",
+        "shared_name" : "6807 (pp) 34641",
+        "shared_interaction" : "pp",
+        "name" : "6807 (pp) 34641",
+        "interaction" : "pp",
+        "SUID" : 71718,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71717",
+        "source" : "71625",
+        "target" : "71624",
+        "shared_name" : "16772 (pp) 16779",
+        "shared_interaction" : "pp",
+        "name" : "16772 (pp) 16779",
+        "interaction" : "pp",
+        "SUID" : 71717,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71716",
+        "source" : "71624",
+        "target" : "71608",
+        "shared_name" : "16779 (pp) 34061",
+        "shared_interaction" : "pp",
+        "name" : "16779 (pp) 34061",
+        "interaction" : "pp",
+        "SUID" : 71716,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71715",
+        "source" : "71623",
+        "target" : "71610",
+        "shared_name" : "9987 (pp) 44237",
+        "shared_interaction" : "pp",
+        "name" : "9987 (pp) 44237",
+        "interaction" : "pp",
+        "SUID" : 71715,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71714",
+        "source" : "71621",
+        "target" : "71605",
+        "shared_name" : "15630 (pp) 5875",
+        "shared_interaction" : "pp",
+        "name" : "15630 (pp) 5875",
+        "interaction" : "pp",
+        "SUID" : 71714,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71713",
+        "source" : "71620",
+        "target" : "71607",
+        "shared_name" : "34645 (pp) 6260",
+        "shared_interaction" : "pp",
+        "name" : "34645 (pp) 6260",
+        "interaction" : "pp",
+        "SUID" : 71713,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71712",
+        "source" : "71619",
+        "target" : "71620",
+        "shared_name" : "44249 (pp) 34645",
+        "shared_interaction" : "pp",
+        "name" : "44249 (pp) 34645",
+        "interaction" : "pp",
+        "SUID" : 71712,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71711",
+        "source" : "71618",
+        "target" : "71646",
+        "shared_name" : "7166 (pp) 7186",
+        "shared_interaction" : "pp",
+        "name" : "7166 (pp) 7186",
+        "interaction" : "pp",
+        "SUID" : 71711,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71710",
+        "source" : "71617",
+        "target" : "71612",
+        "shared_name" : "8150 (pp) 8152",
+        "shared_interaction" : "pp",
+        "name" : "8150 (pp) 8152",
+        "interaction" : "pp",
+        "SUID" : 71710,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71709",
+        "source" : "71617",
+        "target" : "71623",
+        "shared_name" : "8150 (pp) 9987",
+        "shared_interaction" : "pp",
+        "name" : "8150 (pp) 9987",
+        "interaction" : "pp",
+        "SUID" : 71709,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71708",
+        "source" : "71617",
+        "target" : "71602",
+        "shared_name" : "8150 (pp) 23052",
+        "shared_interaction" : "pp",
+        "name" : "8150 (pp) 23052",
+        "interaction" : "pp",
+        "SUID" : 71708,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71707",
+        "source" : "71616",
+        "target" : "71593",
+        "shared_name" : "5623 (pp) 44464",
+        "shared_interaction" : "pp",
+        "name" : "5623 (pp) 44464",
+        "interaction" : "pp",
+        "SUID" : 71707,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71706",
+        "source" : "71615",
+        "target" : "71644",
+        "shared_name" : "44422 (pp) 44446",
+        "shared_interaction" : "pp",
+        "name" : "44422 (pp) 44446",
+        "interaction" : "pp",
+        "SUID" : 71706,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71705",
+        "source" : "71614",
+        "target" : "71634",
+        "shared_name" : "43226 (pp) 43229",
+        "shared_interaction" : "pp",
+        "name" : "43226 (pp) 43229",
+        "interaction" : "pp",
+        "SUID" : 71705,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71704",
+        "source" : "71614",
+        "target" : "71643",
+        "shared_name" : "43226 (pp) 43228",
+        "shared_interaction" : "pp",
+        "name" : "43226 (pp) 43228",
+        "interaction" : "pp",
+        "SUID" : 71704,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71703",
+        "source" : "71614",
+        "target" : "71615",
+        "shared_name" : "43226 (pp) 44422",
+        "shared_interaction" : "pp",
+        "name" : "43226 (pp) 44422",
+        "interaction" : "pp",
+        "SUID" : 71703,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71702",
+        "source" : "71613",
+        "target" : "71645",
+        "shared_name" : "44238 (pp) 6139",
+        "shared_interaction" : "pp",
+        "name" : "44238 (pp) 6139",
+        "interaction" : "pp",
+        "SUID" : 71702,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71701",
+        "source" : "71612",
+        "target" : "71639",
+        "shared_name" : "8152 (pp) 43170",
+        "shared_interaction" : "pp",
+        "name" : "8152 (pp) 43170",
+        "interaction" : "pp",
+        "SUID" : 71701,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71700",
+        "source" : "71612",
+        "target" : "71636",
+        "shared_name" : "8152 (pp) 9058",
+        "shared_interaction" : "pp",
+        "name" : "8152 (pp) 9058",
+        "interaction" : "pp",
+        "SUID" : 71700,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71699",
+        "source" : "71612",
+        "target" : "71610",
+        "shared_name" : "8152 (pp) 44237",
+        "shared_interaction" : "pp",
+        "name" : "8152 (pp) 44237",
+        "interaction" : "pp",
+        "SUID" : 71699,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71698",
+        "source" : "71612",
+        "target" : "71626",
+        "shared_name" : "8152 (pp) 6807",
+        "shared_interaction" : "pp",
+        "name" : "8152 (pp) 6807",
+        "interaction" : "pp",
+        "SUID" : 71698,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71697",
+        "source" : "71612",
+        "target" : "71613",
+        "shared_name" : "8152 (pp) 44238",
+        "shared_interaction" : "pp",
+        "name" : "8152 (pp) 44238",
+        "interaction" : "pp",
+        "SUID" : 71697,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71696",
+        "source" : "71611",
+        "target" : "71645",
+        "shared_name" : "34641 (pp) 6139",
+        "shared_interaction" : "pp",
+        "name" : "34641 (pp) 6139",
+        "interaction" : "pp",
+        "SUID" : 71696,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71695",
+        "source" : "71610",
+        "target" : "71640",
+        "shared_name" : "44237 (pp) 44260",
+        "shared_interaction" : "pp",
+        "name" : "44237 (pp) 44260",
+        "interaction" : "pp",
+        "SUID" : 71695,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71694",
+        "source" : "71610",
+        "target" : "71619",
+        "shared_name" : "44237 (pp) 44249",
+        "shared_interaction" : "pp",
+        "name" : "44237 (pp) 44249",
+        "interaction" : "pp",
+        "SUID" : 71694,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71693",
+        "source" : "71610",
+        "target" : "71611",
+        "shared_name" : "44237 (pp) 34641",
+        "shared_interaction" : "pp",
+        "name" : "44237 (pp) 34641",
+        "interaction" : "pp",
+        "SUID" : 71693,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71692",
+        "source" : "71608",
+        "target" : "71609",
+        "shared_name" : "34061 (pp) 3964",
+        "shared_interaction" : "pp",
+        "name" : "34061 (pp) 3964",
+        "interaction" : "pp",
+        "SUID" : 71692,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71691",
+        "source" : "71607",
+        "target" : "71622",
+        "shared_name" : "6260 (pp) 6278",
+        "shared_interaction" : "pp",
+        "name" : "6260 (pp) 6278",
+        "interaction" : "pp",
+        "SUID" : 71691,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71690",
+        "source" : "71606",
+        "target" : "71642",
+        "shared_name" : "6259 (pp) 15074",
+        "shared_interaction" : "pp",
+        "name" : "6259 (pp) 15074",
+        "interaction" : "pp",
+        "SUID" : 71690,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71689",
+        "source" : "71606",
+        "target" : "71607",
+        "shared_name" : "6259 (pp) 6260",
+        "shared_interaction" : "pp",
+        "name" : "6259 (pp) 6260",
+        "interaction" : "pp",
+        "SUID" : 71689,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71688",
+        "source" : "71605",
+        "target" : "71658",
+        "shared_name" : "5875 (pp) 30286",
+        "shared_interaction" : "pp",
+        "name" : "5875 (pp) 30286",
+        "interaction" : "pp",
+        "SUID" : 71688,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71687",
+        "source" : "71604",
+        "target" : "71605",
+        "shared_name" : "43234 (pp) 5875",
+        "shared_interaction" : "pp",
+        "name" : "43234 (pp) 5875",
+        "interaction" : "pp",
+        "SUID" : 71687,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71686",
+        "source" : "71603",
+        "target" : "71618",
+        "shared_name" : "23033 (pp) 7166",
+        "shared_interaction" : "pp",
+        "name" : "23033 (pp) 7166",
+        "interaction" : "pp",
+        "SUID" : 71686,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71685",
+        "source" : "71602",
+        "target" : "71603",
+        "shared_name" : "23052 (pp) 23033",
+        "shared_interaction" : "pp",
+        "name" : "23052 (pp) 23033",
+        "interaction" : "pp",
+        "SUID" : 71685,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71684",
+        "source" : "71600",
+        "target" : "71601",
+        "shared_name" : "31224 (pp) 16021",
+        "shared_interaction" : "pp",
+        "name" : "31224 (pp) 16021",
+        "interaction" : "pp",
+        "SUID" : 71684,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71683",
+        "source" : "71599",
+        "target" : "71656",
+        "shared_name" : "60089 (pp) 4871",
+        "shared_interaction" : "pp",
+        "name" : "60089 (pp) 4871",
+        "interaction" : "pp",
+        "SUID" : 71683,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71682",
+        "source" : "71598",
+        "target" : "71655",
+        "shared_name" : "3674 (pp) 3824",
+        "shared_interaction" : "pp",
+        "name" : "3674 (pp) 3824",
+        "interaction" : "pp",
+        "SUID" : 71682,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71681",
+        "source" : "71598",
+        "target" : "71589",
+        "shared_name" : "3674 (pp) 5215",
+        "shared_interaction" : "pp",
+        "name" : "3674 (pp) 5215",
+        "interaction" : "pp",
+        "SUID" : 71681,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71680",
+        "source" : "71598",
+        "target" : "71599",
+        "shared_name" : "3674 (pp) 60089",
+        "shared_interaction" : "pp",
+        "name" : "3674 (pp) 60089",
+        "interaction" : "pp",
+        "SUID" : 71680,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71679",
+        "source" : "71597",
+        "target" : "71644",
+        "shared_name" : "44424 (pp) 44446",
+        "shared_interaction" : "pp",
+        "name" : "44424 (pp) 44446",
+        "interaction" : "pp",
+        "SUID" : 71679,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71678",
+        "source" : "71597",
+        "target" : "71634",
+        "shared_name" : "44424 (pp) 43229",
+        "shared_interaction" : "pp",
+        "name" : "44424 (pp) 43229",
+        "interaction" : "pp",
+        "SUID" : 71678,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71677",
+        "source" : "71596",
+        "target" : "71591",
+        "shared_name" : "5576 (pp) 44421",
+        "shared_interaction" : "pp",
+        "name" : "5576 (pp) 44421",
+        "interaction" : "pp",
+        "SUID" : 71677,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71676",
+        "source" : "71595",
+        "target" : "71593",
+        "shared_name" : "5575 (pp) 44464",
+        "shared_interaction" : "pp",
+        "name" : "5575 (pp) 44464",
+        "interaction" : "pp",
+        "SUID" : 71676,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71675",
+        "source" : "71595",
+        "target" : "71591",
+        "shared_name" : "5575 (pp) 44421",
+        "shared_interaction" : "pp",
+        "name" : "5575 (pp) 44421",
+        "interaction" : "pp",
+        "SUID" : 71675,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71674",
+        "source" : "71595",
+        "target" : "71614",
+        "shared_name" : "5575 (pp) 43226",
+        "shared_interaction" : "pp",
+        "name" : "5575 (pp) 43226",
+        "interaction" : "pp",
+        "SUID" : 71674,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71673",
+        "source" : "71595",
+        "target" : "71616",
+        "shared_name" : "5575 (pp) 5623",
+        "shared_interaction" : "pp",
+        "name" : "5575 (pp) 5623",
+        "interaction" : "pp",
+        "SUID" : 71673,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71672",
+        "source" : "71595",
+        "target" : "71615",
+        "shared_name" : "5575 (pp) 44422",
+        "shared_interaction" : "pp",
+        "name" : "5575 (pp) 44422",
+        "interaction" : "pp",
+        "SUID" : 71672,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71671",
+        "source" : "71595",
+        "target" : "71633",
+        "shared_name" : "5575 (pp) 32991",
+        "shared_interaction" : "pp",
+        "name" : "5575 (pp) 32991",
+        "interaction" : "pp",
+        "SUID" : 71671,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71670",
+        "source" : "71595",
+        "target" : "71596",
+        "shared_name" : "5575 (pp) 5576",
+        "shared_interaction" : "pp",
+        "name" : "5575 (pp) 5576",
+        "interaction" : "pp",
+        "SUID" : 71670,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71669",
+        "source" : "71594",
+        "target" : "71597",
+        "shared_name" : "5622 (pp) 44424",
+        "shared_interaction" : "pp",
+        "name" : "5622 (pp) 44424",
+        "interaction" : "pp",
+        "SUID" : 71669,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71668",
+        "source" : "71593",
+        "target" : "71652",
+        "shared_name" : "44464 (pp) 16020",
+        "shared_interaction" : "pp",
+        "name" : "44464 (pp) 16020",
+        "interaction" : "pp",
+        "SUID" : 71668,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71667",
+        "source" : "71593",
+        "target" : "71629",
+        "shared_name" : "44464 (pp) 44425",
+        "shared_interaction" : "pp",
+        "name" : "44464 (pp) 44425",
+        "interaction" : "pp",
+        "SUID" : 71667,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71666",
+        "source" : "71593",
+        "target" : "71597",
+        "shared_name" : "44464 (pp) 44424",
+        "shared_interaction" : "pp",
+        "name" : "44464 (pp) 44424",
+        "interaction" : "pp",
+        "SUID" : 71666,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71665",
+        "source" : "71593",
+        "target" : "71594",
+        "shared_name" : "44464 (pp) 5622",
+        "shared_interaction" : "pp",
+        "name" : "44464 (pp) 5622",
+        "interaction" : "pp",
+        "SUID" : 71665,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71664",
+        "source" : "71592",
+        "target" : "71653",
+        "shared_name" : "31012 (pp) 5578",
+        "shared_interaction" : "pp",
+        "name" : "31012 (pp) 5578",
+        "interaction" : "pp",
+        "SUID" : 71664,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71663",
+        "source" : "71591",
+        "target" : "71657",
+        "shared_name" : "44421 (pp) 5615",
+        "shared_interaction" : "pp",
+        "name" : "44421 (pp) 5615",
+        "interaction" : "pp",
+        "SUID" : 71663,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71662",
+        "source" : "71591",
+        "target" : "71592",
+        "shared_name" : "44421 (pp) 31012",
+        "shared_interaction" : "pp",
+        "name" : "44421 (pp) 31012",
+        "interaction" : "pp",
+        "SUID" : 71662,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71661",
+        "source" : "71590",
+        "target" : "71647",
+        "shared_name" : "22857 (pp) 22891",
+        "shared_interaction" : "pp",
+        "name" : "22857 (pp) 22891",
+        "interaction" : "pp",
+        "SUID" : 71661,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71660",
+        "source" : "71589",
+        "target" : "71630",
+        "shared_name" : "5215 (pp) 22892",
+        "shared_interaction" : "pp",
+        "name" : "5215 (pp) 22892",
+        "interaction" : "pp",
+        "SUID" : 71660,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "71659",
+        "source" : "71589",
+        "target" : "71590",
+        "shared_name" : "5215 (pp) 22857",
+        "shared_interaction" : "pp",
+        "name" : "5215 (pp) 22857",
+        "interaction" : "pp",
+        "SUID" : 71659,
+        "edgeType_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "black",
+        "selected" : false
+      },
+      "selected" : false
+    } ]
+  }
+}
