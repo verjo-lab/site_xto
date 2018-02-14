@@ -18,3 +18,6 @@ def sm_view(request, gene_id):
             "URL_FIG_S5": "/static/FigS5/" + gene_id + ".png",
     }
     return render(request, 'smlinc.html', context)
+
+def cyto_view(request):
+    return render(request, 'cytoscape.html')

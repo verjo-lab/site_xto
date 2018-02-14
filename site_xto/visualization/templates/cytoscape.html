@@ -2,78 +2,186 @@
 {% load static %}
 
 {% block container-central %}
-    <div class="col-md-2">
-    <h4>Data Download</h4>
-        <hr>
-            <div id="fig7a_div_data">
-                <a href="{{ URL_FIG_7A_GENERIC }}-FCs.tsv">Figure 7A S3 Related FCs</a><br/>
-                <a href="{{ URL_FIG_7A_GENERIC }}-PCCs.tsv">Figure 7A S3 Related PCCs</a>
-            </div>
-            <div id="fig6a_div_data">
-                <a href="{{ URL_FIG_6A_GENERIC }}-FCs.tsv">Figure 6A Related FCs</a><br/>
-                <a href="{{ URL_FIG_6A_GENERIC }}-PCCs.tsv">Figure 6A Related PCCs</a>
-            </div>
-            <div id="figs5_div_data">
-                <a href="{{ URL_FIG_S5_GENERIC }}-FCs.tsv">Figure S5 Related FCs</a><br/>
-                <a href="{{ URL_FIG_S5_GENERIC }}-PCCs.tsv">Figure S5 Related PCCs</a>
-            </div>
-        <br/>
-    <h4>Citations</h4>
-        <hr>
-        Here will go this article citations
-        <br>
-    </div>
-    <div class="col-md-10">
-    <h1>{{ LINC }} Data</h1>
-    <p>Chromosome: <b>{{ GENE_OBJ.chromosome }}</b> - Coordinate: <b>{{ GENE_OBJ.chromosome }}:{{ GENE_OBJ.chromosome_start }}-{{ GENE_OBJ.chromosome_end }}</b> - Strand: <b>{{ GENE_OBJ.strand }}</b></p>
-        <hr>
-        <div class="col-md-6" style="float: left;" id="fig7a_div">
-            <a href="{{ URL_FIG_7A }}" target="_blank">
-                <figure>
-                    <img src="{{ URL_FIG_7A }}" id="fig7a" alt="" width="450" height="250" class="figure-img" onload="loadImage()">
-                    <figcaption>Fig. 7A S3 for {{ LINC }} with r => 0.5 or r <= -0.5</figcaption>
-                </figure>
-            </a>
-            <br>
-            <figure>
-                <a href="{{ URL_FIG_6A }}" target="_blank" id="fig6a_div">
-                    <img src="{{ URL_FIG_6A }}" id="fig6a" alt="" width="450" height="250" class="figure-img" onload="loadImage()">
-                    <figcaption>Fig. 6A for {{ LINC }} with r => 0.8 or r <= -0.8</figcaption>
-                </a>
-            </figure>
-        </div>
-        <div class="col-md-6" style="float: right;" id="figs5_div">
-            <figure>
-            <a href="{{ URL_FIG_S5 }}" target="_blank">
-                <img src="{{ URL_FIG_S5 }}" id="figs5" alt="" width="450" height="250" class="figure-img" onerror="unloadImage()">
-                <figcaption>Fig. S5 for {{ LINC }} with  r => 0.9 or r <= -0.9</figcaption>
-            </a>
-            </figure>
-        </div>
-    </div>
+<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Promise,fetch"></script>
+<div id="cy"></div>
 <script type="text/javascript">
-    var img = document.getElementById("fig7a");
-    img.onerror = function () {
-        var div = document.getElementById("fig7a_div");
-        div.style.display = "none";
-        var divdata = document.getElementById("fig7a_div_data");
-        divdata.style.display = "none";
-    };
+Promise.all([
+  fetch('{% static "cytoscape/CoexpNetwork-cor0p8-DEedgeDE-lincSMP-181mainInt_v2.cyjs" %}', {mode: 'no-cors'})
+    .then(function(res) {
+      return res.json()
+    })
+])
+  .then(function(dataArray) {
+    var cy = window.cy = cytoscape({
+      container: document.getElementById('cy'),
 
-    var img2 = document.getElementById("fig6a");
-    img2.onerror = function () {
-        var div = document.getElementById("fig6a_div");
-        div.style.display = "none";
-        var divdata = document.getElementById("fig6a_div_data");
-        divdata.style.display = "none";
-    };
+      layout: {
+        name: 'cose',
+        idealEdgeLength: 100,
+        nodeOverlap: 20,
+        refresh: 20,
+        fit: true,
+        padding: 30,
+        randomize: false,
+        componentSpacing: 100,
+        nodeRepulsion: 400000,
+        edgeElasticity: 100,
+        nestingFactor: 5,
+        gravity: 80,
+        numIter: 1000,
+        initialTemp: 200,
+        coolingFactor: 0.95,
+        minTemp: 1.0
+      },
 
-    var img3 = document.getElementById("figs5");
-    img3.onerror = function () {
-        var div = document.getElementById("figs5_div");
-        div.style.display = "none";
-        var divdata = document.getElementById("figs5_div_data");
-        divdata.style.display = "none";
-    };
+      style: [{
+  "selector": "core",
+  "style": {
+    "selection-box-color": "#AAD8FF",
+    "selection-box-border-color": "#8BB0D0",
+    "selection-box-opacity": "0.5"
+  }
+}, {
+  "selector": "node",
+  "style": {
+    "width": "mapData(score, 0, 0.006769776522008331, 20, 60)",
+    "height": "mapData(score, 0, 0.006769776522008331, 20, 60)",
+    "content": "data(name)",
+    "font-size": "12px",
+    "text-valign": "center",
+    "text-halign": "center",
+    "background-color": "#555",
+    "text-outline-color": "#555",
+    "text-outline-width": "2px",
+    "color": "#fff",
+    "overlay-padding": "6px",
+    "z-index": "10"
+  }
+}, {
+  "selector": "node[?attr]",
+  "style": {
+    "shape": "rectangle",
+    "background-color": "#aaa",
+    "text-outline-color": "#aaa",
+    "width": "16px",
+    "height": "16px",
+    "font-size": "6px",
+    "z-index": "1"
+  }
+}, {
+  "selector": "node[?query]",
+  "style": {
+    "background-clip": "none",
+    "background-fit": "contain"
+  }
+}, {
+  "selector": "node:selected",
+  "style": {
+    "border-width": "6px",
+    "border-color": "#AAD8FF",
+    "border-opacity": "0.5",
+    "background-color": "#77828C",
+    "text-outline-color": "#77828C"
+  }
+}, {
+  "selector": "edge",
+  "style": {
+    "curve-style": "haystack",
+    "haystack-radius": "0.5",
+    "opacity": "0.4",
+    "line-color": "#bbb",
+    "width": "mapData(weight, 0, 1, 1, 8)",
+    "overlay-padding": "3px"
+  }
+}, {
+  "selector": "node.unhighlighted",
+  "style": {
+    "opacity": "0.2"
+  }
+}, {
+  "selector": "edge.unhighlighted",
+  "style": {
+    "opacity": "0.05"
+  }
+}, {
+  "selector": ".highlighted",
+  "style": {
+    "z-index": "999999"
+  }
+}, {
+  "selector": "node.highlighted",
+  "style": {
+    "border-width": "6px",
+    "border-color": "#AAD8FF",
+    "border-opacity": "0.5",
+    "background-color": "#394855",
+    "text-outline-color": "#394855"
+  }
+}, {
+  "selector": "edge.filtered",
+  "style": {
+    "opacity": "0"
+  }
+}, {
+  "selector": "edge[group=\"coexp\"]",
+  "style": {
+    "line-color": "#d0b7d5"
+  }
+}, {
+  "selector": "edge[group=\"coloc\"]",
+  "style": {
+    "line-color": "#a0b3dc"
+  }
+}, {
+  "selector": "edge[group=\"gi\"]",
+  "style": {
+    "line-color": "#90e190"
+  }
+}, {
+  "selector": "edge[group=\"path\"]",
+  "style": {
+    "line-color": "#9bd8de"
+  }
+}, {
+  "selector": "edge[group=\"pi\"]",
+  "style": {
+    "line-color": "#eaa2a2"
+  }
+}, {
+  "selector": "edge[group=\"predict\"]",
+  "style": {
+    "line-color": "#f6c384"
+  }
+}, {
+  "selector": "edge[group=\"spd\"]",
+  "style": {
+    "line-color": "#dad4a2"
+  }
+}, {
+  "selector": "edge[group=\"spd_attr\"]",
+  "style": {
+    "line-color": "#D0D0D0"
+  }
+}, {
+  "selector": "edge[group=\"reg\"]",
+  "style": {
+    "line-color": "#D0D0D0"
+  }
+}, {
+  "selector": "edge[group=\"reg_attr\"]",
+  "style": {
+    "line-color": "#D0D0D0"
+  }
+}, {
+  "selector": "edge[group=\"user\"]",
+  "style": {
+    "line-color": "#f0ec86"
+  }
+}],
+
+      elements: dataArray[0]
+
+    });
+  });
 </script>
 {% endblock container-central %}

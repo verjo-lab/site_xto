@@ -4,7 +4,11 @@
 
 
 {% block container-central %}
-            <h3 style="text-align: center;"><i>Schistosoma mansoni</i> lncRNAs Database </h3>
-            <br />
+<p><b>Search for your Gene of Interest using Gene ID:</b></p>
             {% render_table table %}
+<script type="text/javascript">
+$('document').ready(function(){
+  $(document).xpathEvaluate('/html/body/div[1]/div/div[1]/div[1]').remove()
+});
+</script>
 {% endblock container-central %}
