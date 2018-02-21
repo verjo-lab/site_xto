@@ -6,7 +6,7 @@ from table.utils import A
 
 
 class GeneLocationTable(Table):
-    gene_id = LinkColumn(field='gene_id', header="Gene ID", links=[Link(text=A('gene_id'), viewname="sm_view", kwargs={"gene_id":A('gene_id')})])
+    gene_id = LinkColumn(field='gene_id', header="lncRNA Gene ID", links=[Link(text=A('gene_id'), viewname="sm_view", kwargs={"gene_id":A('gene_id')})])
     chromosome = Column(field='chromosome', header="Chromosome")
     chromosome_start = Column(field='chromosome_start', header="Chromosome Start")
     chromosome_end = Column(field='chromosome_end', header="Chromosome End")

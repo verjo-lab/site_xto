@@ -1,11 +1,12 @@
 {% load static %}
 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
 <script src="{% static 'xpathevaluate.js' %}"></script>
+<script src="{% static 'style.css' %}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.2.8/cytoscape.min.js"></script>
 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
 <!DOCTYPE html>
 <html>
     <head>
@@ -27,7 +28,8 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Cytoscape Networks</a></li>
             <li><a href="http://www2.iq.usp.br/docente/verjo/">Lab</a></li>
           </ul>
         </div>
