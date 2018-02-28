@@ -1,1 +1,1 @@
-web: sh run.sh
+web: gunicorn site_xto.wsgi
