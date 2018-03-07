@@ -11,7 +11,7 @@ class GeneLocationTable(Table):
     chromosome_start = Column(field='chromosome_start', header="Chromosome Start")
     chromosome_end = Column(field='chromosome_end', header="Chromosome End")
     strand = Column(field='strand', header="Strand")
-    block_counts = Column(field='block_counts', header="Block Count")
+    block_counts = Column(field='block_counts', header="# of Exons")
     class Meta:
         model = GeneLocation
         search_placeholder = "Search for your gene"

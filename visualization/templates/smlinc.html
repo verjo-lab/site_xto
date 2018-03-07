@@ -2,6 +2,10 @@
 {% load static %}
 
 {% block container-central %}
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li class="active">{{ LINC }}</li>
+</ol>
   <div class="col-md-12">
     <h1>{{ LINC }} Data</h1>
     <p>Chromosome: <b>{{ GENE_OBJ.chromosome }}</b> - Coordinate: <b>{{ GENE_OBJ.chromosome }}:{{ GENE_OBJ.chromosome_start }}-{{ GENE_OBJ.chromosome_end }}</b> - Strand: <b>{{ GENE_OBJ.strand }}</b></p>
