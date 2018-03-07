@@ -2,7 +2,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
-<script src="http://verjo101.butantan.gov.br/users/vinicius/static/xpathevaluate.js"></script>
+<script src="{% static 'xpathevaluate.js' %}"></script>
 <script src="http://verjo101.butantan.gov.br/users/vinicius/static/style.css"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.2.8/cytoscape.min.js"></script>
 
@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li><a href="/">Home</a></li>
-            <li><a href="/">Cytoscape Networks</a></li>
+            <li><a href="/cyto_view/">Cytoscape Networks</a></li>
             <li><a href="http://www2.iq.usp.br/docente/verjo/">Lab</a></li>
           </ul>
         </div>
@@ -41,6 +41,11 @@
       <a href="/">
           <img src="http://verjo102.butantan.gov.br/vinicius/imagens/logo_db.png" alt=""  width="450" height="200" style="display:block;margin:auto;">
       </a>
+      <hr>
+      <p>
+        Based on data from Vasconcelos, EJR et al., The Schistosoma mansoni genome encodes thousands of long noncoding RNAs predicted to be functional at different parasite life-cycle stages. Scientific Reports 7: 10508, 2017.
+      </p>
+
     <hr/>
         {% block container-central %}
         {% endblock container-central %}

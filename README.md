@@ -10,3 +10,10 @@ python manage.py migrate
 python manage.py createsuperuser
 python manage.py load_gene_location
 ```
+
+## How to get the docker up and running
+
+```bash
+docker-compose build
+docker-compose up
+```

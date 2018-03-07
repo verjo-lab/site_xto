@@ -31,8 +31,8 @@ def sm_view(request, gene_id):
                 gene=gene_id,
                 cc=j
             )
-            context_name = i + "_" + j + "_" + "table"
-            print(context_name)
+            context_name = "{i}_{j}_table".format(i=i, j=j)
+            context_url_name = "URL_{i}_{j}_table".format(i=i, j=j)
             try:
                 if j == "FCs":
                     columns = columns_fcs
@@ -52,9 +52,12 @@ def sm_view(request, gene_id):
                     border = 0
                 )
                 context[context_name].replace('border="1"', '')
+                context[context_url_name] = display_file
+                print(context_url_name)
 
             except:
                 context[context_name] = ""
+                context[context_url_name] = "#"
 
 
     return render(request, 'smlinc.html', context)
