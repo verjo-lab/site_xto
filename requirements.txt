@@ -18,3 +18,4 @@ tqdm==4.19.5
 Werkzeug==0.14.1
 xlrd==1.1.0
 whitenoise==3.3.0
+psycopg2==2.7.4

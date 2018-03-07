@@ -32,6 +32,7 @@ def sm_view(request, gene_id):
                 cc=j
             )
             context_name = i + "_" + j + "_" + "table"
+            print(context_name)
             try:
                 if j == "FCs":
                     columns = columns_fcs

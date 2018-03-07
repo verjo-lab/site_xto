@@ -1,0 +1,9 @@
+static/*
+data/*
+static_media/*
+.git/
+*.pyc
+Procfile
+README.md
+Dockerfile
+*__pycache__/*
