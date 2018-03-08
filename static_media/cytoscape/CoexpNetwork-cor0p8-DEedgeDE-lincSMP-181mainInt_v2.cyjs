@@ -13,7 +13,7 @@
     "nodes" : [ {
       "data" : {
         "id" : "71658",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 8.94427190999916,
+        "nodesize" : 8.94427190999916,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.3240E-6",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 3.4573916154330067,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "38",
@@ -37,7 +37,7 @@
     }, {
       "data" : {
         "id" : "71657",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 9.797958971132712,
+        "nodesize" : 9.797958971132712,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.6415E-6",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 3.4573916154330067,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "51",
@@ -61,7 +61,7 @@
     }, {
       "data" : {
         "id" : "71656",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 13.416407864998739,
+        "nodesize" : 13.416407864998739,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.5463E-2",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.3641644844688411,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "184",
@@ -85,7 +85,7 @@
     }, {
       "data" : {
         "id" : "71655",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 33.166247903554,
+        "nodesize" : 33.166247903554,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9998E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1827",
@@ -109,7 +109,7 @@
     }, {
       "data" : {
         "id" : "71654",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 12.489995996796797,
+        "nodesize" : 12.489995996796797,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "7.0049E-4",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 1.2896376745514282,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "132",
@@ -133,7 +133,7 @@
     }, {
       "data" : {
         "id" : "71653",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 7.745966692414834,
+        "nodesize" : 7.745966692414834,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.2126E-5",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 2.668101354383789,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "27",
@@ -157,7 +157,7 @@
     }, {
       "data" : {
         "id" : "71652",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 40.049968789001575,
+        "nodesize" : 40.049968789001575,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.6248E-9",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 6.070433607735844,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1784",
@@ -181,7 +181,7 @@
     }, {
       "data" : {
         "id" : "71651",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 10.770329614269007,
+        "nodesize" : 10.770329614269007,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5.5720E-5",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 2.1307469648760584,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "79",
@@ -205,7 +205,7 @@
     }, {
       "data" : {
         "id" : "71650",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 11.489125293076057,
+        "nodesize" : 11.489125293076057,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2.1738E-3",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.9152005960503494,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "113",
@@ -229,7 +229,7 @@
     }, {
       "data" : {
         "id" : "71649",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 13.2664991614216,
+        "nodesize" : 13.2664991614216,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4.6575E-3",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.6822023971911686,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "168",
@@ -253,7 +253,7 @@
     }, {
       "data" : {
         "id" : "71648",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 13.856406460551018,
+        "nodesize" : 13.856406460551018,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2.3190E-2",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.27113017149547075,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "203",
@@ -277,7 +277,7 @@
     }, {
       "data" : {
         "id" : "71647",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 15.491933384829668,
+        "nodesize" : 15.491933384829668,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "8.0097E-3",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.5885669226905712,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "249",
@@ -301,7 +301,7 @@
     }, {
       "data" : {
         "id" : "71646",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 11.832159566199232,
+        "nodesize" : 11.832159566199232,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5.1203E-5",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 2.1394344014597926,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "102",
@@ -325,7 +325,7 @@
     }, {
       "data" : {
         "id" : "71645",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 20.493901531919196,
+        "nodesize" : 20.493901531919196,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9999E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "813",
@@ -349,7 +349,7 @@
     }, {
       "data" : {
         "id" : "71644",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 20.591260281974,
+        "nodesize" : 20.591260281974,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "917",
@@ -373,7 +373,7 @@
     }, {
       "data" : {
         "id" : "71643",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 15.874507866387544,
+        "nodesize" : 15.874507866387544,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9921E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "484",
@@ -397,7 +397,7 @@
     }, {
       "data" : {
         "id" : "71642",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 6.324555320336759,
+        "nodesize" : 6.324555320336759,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.5903E-6",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 3.4573916154330067,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "12",
@@ -421,7 +421,7 @@
     }, {
       "data" : {
         "id" : "71641",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 21.071307505705477,
+        "nodesize" : 21.071307505705477,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.4656E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "698",
@@ -445,7 +445,7 @@
     }, {
       "data" : {
         "id" : "71640",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 25.612496949731394,
+        "nodesize" : 25.612496949731394,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1382",
@@ -469,7 +469,7 @@
     }, {
       "data" : {
         "id" : "71639",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 27.27636339397171,
+        "nodesize" : 27.27636339397171,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1489",
@@ -493,7 +493,7 @@
     }, {
       "data" : {
         "id" : "71638",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 17.549928774784245,
+        "nodesize" : 17.549928774784245,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9990E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "602",
@@ -517,7 +517,7 @@
     }, {
       "data" : {
         "id" : "71637",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 16.61324772583615,
+        "nodesize" : 16.61324772583615,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9878E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "516",
@@ -541,7 +541,7 @@
     }, {
       "data" : {
         "id" : "71636",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 19.8997487421324,
+        "nodesize" : 19.8997487421324,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9842E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "699",
@@ -565,7 +565,7 @@
     }, {
       "data" : {
         "id" : "71635",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 15.874507866387544,
+        "nodesize" : 15.874507866387544,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9921E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "484",
@@ -589,7 +589,7 @@
     }, {
       "data" : {
         "id" : "71634",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 28.21347195933177,
+        "nodesize" : 28.21347195933177,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1569",
@@ -613,7 +613,7 @@
     }, {
       "data" : {
         "id" : "71633",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 21.908902300206645,
+        "nodesize" : 21.908902300206645,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1001",
@@ -637,7 +637,7 @@
     }, {
       "data" : {
         "id" : "71632",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 12.649110640673518,
+        "nodesize" : 12.649110640673518,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.2391E-3",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 1.0980620066101143,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "140",
@@ -661,7 +661,7 @@
     }, {
       "data" : {
         "id" : "71631",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 13.2664991614216,
+        "nodesize" : 13.2664991614216,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.5141E-2",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.3641644844688411,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "179",
@@ -685,7 +685,7 @@
     }, {
       "data" : {
         "id" : "71630",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 16.1245154965971,
+        "nodesize" : 16.1245154965971,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.7506E-2",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.33161372354628293,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "283",
@@ -709,7 +709,7 @@
     }, {
       "data" : {
         "id" : "71629",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 38.98717737923585,
+        "nodesize" : 38.98717737923585,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.7800E-10",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 6.899352797777825,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1649",
@@ -733,7 +733,7 @@
     }, {
       "data" : {
         "id" : "71628",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 10.0,
+        "nodesize" : 10.0,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2.9263E-5",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 2.3524444026220825,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "62",
@@ -757,7 +757,7 @@
     }, {
       "data" : {
         "id" : "71627",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 10.392304845413264,
+        "nodesize" : 10.392304845413264,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "3.0844E-4",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 1.5636830507308561,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "78",
@@ -781,7 +781,7 @@
     }, {
       "data" : {
         "id" : "71626",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 21.72556098240043,
+        "nodesize" : 21.72556098240043,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9995E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "871",
@@ -805,7 +805,7 @@
     }, {
       "data" : {
         "id" : "71625",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 13.711309200802088,
+        "nodesize" : 13.711309200802088,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9991E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "406",
@@ -829,7 +829,7 @@
     }, {
       "data" : {
         "id" : "71624",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 8.48528137423857,
+        "nodesize" : 8.48528137423857,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.7996E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.15185844882011512,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "80",
@@ -853,7 +853,7 @@
     }, {
       "data" : {
         "id" : "71623",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 39.74921382870358,
+        "nodesize" : 39.74921382870358,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2713",
@@ -877,7 +877,7 @@
     }, {
       "data" : {
         "id" : "71622",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 7.483314773547883,
+        "nodesize" : 7.483314773547883,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2.6027E-6",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 3.2986162652865527,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "22",
@@ -901,7 +901,7 @@
     }, {
       "data" : {
         "id" : "71621",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 12.0,
+        "nodesize" : 12.0,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2.7484E-4",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 1.5952884719681029,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "114",
@@ -925,7 +925,7 @@
     }, {
       "data" : {
         "id" : "71620",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 16.61324772583615,
+        "nodesize" : 16.61324772583615,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9850E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "513",
@@ -949,7 +949,7 @@
     }, {
       "data" : {
         "id" : "71619",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 19.697715603592208,
+        "nodesize" : 19.697715603592208,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9792E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "682",
@@ -973,7 +973,7 @@
     }, {
       "data" : {
         "id" : "71618",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14.696938456699069,
+        "nodesize" : 14.696938456699069,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.5835E-3",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 1.017085379181161,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "205",
@@ -997,7 +997,7 @@
     }, {
       "data" : {
         "id" : "71617",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 48.12483766206386,
+        "nodesize" : 48.12483766206386,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "3584",
@@ -1021,7 +1021,7 @@
     }, {
       "data" : {
         "id" : "71616",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 50.59644256269407,
+        "nodesize" : 50.59644256269407,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "8.2037E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "3620",
@@ -1045,7 +1045,7 @@
     }, {
       "data" : {
         "id" : "71615",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 20.8806130178211,
+        "nodesize" : 20.8806130178211,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "930",
@@ -1069,7 +1069,7 @@
     }, {
       "data" : {
         "id" : "71614",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 28.21347195933177,
+        "nodesize" : 28.21347195933177,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1569",
@@ -1093,7 +1093,7 @@
     }, {
       "data" : {
         "id" : "71613",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 31.937438845342623,
+        "nodesize" : 31.937438845342623,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1845",
@@ -1117,7 +1117,7 @@
     }, {
       "data" : {
         "id" : "71612",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 34.92849839314596,
+        "nodesize" : 34.92849839314596,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2152",
@@ -1141,7 +1141,7 @@
     }, {
       "data" : {
         "id" : "71611",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 21.540659228538015,
+        "nodesize" : 21.540659228538015,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9996E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "861",
@@ -1165,7 +1165,7 @@
     }, {
       "data" : {
         "id" : "71610",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 31.496031496047245,
+        "nodesize" : 31.496031496047245,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1874",
@@ -1189,7 +1189,7 @@
     }, {
       "data" : {
         "id" : "71609",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 7.483314773547883,
+        "nodesize" : 7.483314773547883,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4.5262E-7",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 3.862003792044934,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "20",
@@ -1213,7 +1213,7 @@
     }, {
       "data" : {
         "id" : "71608",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 7.483314773547883,
+        "nodesize" : 7.483314773547883,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.7946E-4",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 1.7196919145877765,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "29",
@@ -1237,7 +1237,7 @@
     }, {
       "data" : {
         "id" : "71607",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 8.717797887081348,
+        "nodesize" : 8.717797887081348,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4.2407E-2",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.22050763219212755,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "71",
@@ -1261,7 +1261,7 @@
     }, {
       "data" : {
         "id" : "71606",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 10.583005244258363,
+        "nodesize" : 10.583005244258363,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4.7918E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "152",
@@ -1285,7 +1285,7 @@
     }, {
       "data" : {
         "id" : "71605",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 9.797958971132712,
+        "nodesize" : 9.797958971132712,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4.7451E-4",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 1.4277608545329026,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "68",
@@ -1309,7 +1309,7 @@
     }, {
       "data" : {
         "id" : "71604",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 19.595917942265423,
+        "nodesize" : 19.595917942265423,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "9.9995E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "733",
@@ -1333,7 +1333,7 @@
     }, {
       "data" : {
         "id" : "71603",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 17.549928774784245,
+        "nodesize" : 17.549928774784245,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0585E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.15185844882011512,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "375",
@@ -1357,7 +1357,7 @@
     }, {
       "data" : {
         "id" : "71602",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 19.078784028338912,
+        "nodesize" : 19.078784028338912,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5.6665E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "511",
@@ -1381,7 +1381,7 @@
     }, {
       "data" : {
         "id" : "71601",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 38.41874542459709,
+        "nodesize" : 38.41874542459709,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "3.1001E-13",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 9.200844244159017,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1529",
@@ -1405,7 +1405,7 @@
     }, {
       "data" : {
         "id" : "71600",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 38.41874542459709,
+        "nodesize" : 38.41874542459709,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "5.9269E-13",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 9.200844244159017,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1535",
@@ -1429,7 +1429,7 @@
     }, {
       "data" : {
         "id" : "71599",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 13.416407864998739,
+        "nodesize" : 13.416407864998739,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.5463E-2",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.3641644844688411,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "184",
@@ -1453,7 +1453,7 @@
     }, {
       "data" : {
         "id" : "71598",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 52.91502622129181,
+        "nodesize" : 52.91502622129181,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4274",
@@ -1477,7 +1477,7 @@
     }, {
       "data" : {
         "id" : "71597",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 31.811947441173732,
+        "nodesize" : 31.811947441173732,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1981",
@@ -1501,7 +1501,7 @@
     }, {
       "data" : {
         "id" : "71596",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 12.649110640673518,
+        "nodesize" : 12.649110640673518,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2.0007E-9",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 6.070433607735844,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "88",
@@ -1525,7 +1525,7 @@
     }, {
       "data" : {
         "id" : "71595",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 51.45872132107443,
+        "nodesize" : 51.45872132107443,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "4.8258E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "3672",
@@ -1549,7 +1549,7 @@
     }, {
       "data" : {
         "id" : "71594",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 34.23448553724738,
+        "nodesize" : 34.23448553724738,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.0000",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2296",
@@ -1573,7 +1573,7 @@
     }, {
       "data" : {
         "id" : "71593",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 50.556898639058154,
+        "nodesize" : 50.556898639058154,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "7.9986E-1",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : -0.0,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "3609",
@@ -1597,7 +1597,7 @@
     }, {
       "data" : {
         "id" : "71592",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 7.745966692414834,
+        "nodesize" : 7.745966692414834,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "2.1804E-5",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 2.448039330063409,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "28",
@@ -1621,7 +1621,7 @@
     }, {
       "data" : {
         "id" : "71591",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 11.661903789690601,
+        "nodesize" : 11.661903789690601,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "3.9550E-9",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 5.853650330438071,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "70",
@@ -1645,7 +1645,7 @@
     }, {
       "data" : {
         "id" : "71590",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 16.0,
+        "nodesize" : 16.0,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "1.8797E-2",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.32577440993244666,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "279",
@@ -1669,7 +1669,7 @@
     }, {
       "data" : {
         "id" : "71589",
-        "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 16.97056274847714,
+        "nodesize" : 16.97056274847714,
         "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "6.1457E-2",
         "nodeFillColor_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 0.15185844882011512,
         "nn_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "338",
