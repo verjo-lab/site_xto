@@ -10,5 +10,12 @@
 $('document').ready(function(){
   $(document).xpathEvaluate('/html/body/div[1]/div/div[1]/div[1]').remove()
 });
+
+if (document.cookie.indexOf("visited=") >= 0) {}
+else {
+  document.cookie = "visited=yes; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+  window.location.replace("/cyto_view/");
+}
+
 </script>
 {% endblock container-central %}
