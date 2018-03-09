@@ -27,7 +27,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "20"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "20",
+        "colored_fig6b": true
       },
       "position" : {
         "x" : -1070.7509799722184,
@@ -51,7 +52,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "24"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "24",
+        "colored_fig6b": true
       },
       "position" : {
         "x" : -1847.4404330972184,
@@ -75,7 +77,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "45"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "45",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : 465.6167149648959,
@@ -99,7 +102,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "275"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "275",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : 353.152390013724,
@@ -123,7 +127,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "39"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "39",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : 457.8117833242709,
@@ -147,7 +152,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "15"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "15",
+        "colored_fig6b": true
       },
       "position" : {
         "x" : -1792.1339145425309,
@@ -171,7 +177,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "401"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "401",
+        "colored_fig6b": true
       },
       "position" : {
         "x" : -1561.6967807534684,
@@ -195,7 +202,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "29"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "29",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : 418.0776524648959,
@@ -219,7 +227,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "33"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "33",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : 442.6162266836459,
@@ -243,7 +252,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "44"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "44",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : 998.5830235586459,
@@ -267,7 +277,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "48"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "48",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : 905.5465245352084,
@@ -291,7 +302,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "60"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "60",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : 789.9542393789584,
@@ -315,7 +327,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "35"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "35",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -919.7382276559232,
@@ -339,7 +352,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "105"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "105",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -271.3755872750638,
@@ -363,7 +377,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "106"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "106",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -1384.6911655190934,
@@ -387,7 +402,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "63"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "63",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -1511.2441440347184,
@@ -411,7 +427,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "10"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "10",
+        "colored_fig6b": true
       },
       "position" : {
         "x" : -196.75220470670445,
@@ -435,7 +452,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "111"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "111",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : 233.7379307852084,
@@ -459,7 +477,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "164"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "164",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -404.2054822945951,
@@ -483,7 +502,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "186"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "186",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -510.1995313668607,
@@ -507,7 +527,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "77"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "77",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -232.3500440621732,
@@ -531,7 +552,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "69"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "69",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -574.2431715035794,
@@ -555,7 +577,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "99"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "99",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -596.2004468942044,
@@ -579,7 +602,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "63"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "63",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -1392.1046176675309,
@@ -603,7 +627,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "199"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "199",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -1455.9458041909684,
@@ -627,7 +652,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "120"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "120",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -1426.4923129800309,
@@ -651,7 +677,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "40"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "40",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -1271.5164829019059,
@@ -675,7 +702,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "44"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "44",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -1266.0040317300309,
@@ -699,7 +727,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "65"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "65",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : 697.6886143789584,
@@ -723,7 +752,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "380"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "380",
+        "colored_fig6b": true
       },
       "position" : {
         "x" : -1668.0695834878434,
@@ -747,7 +777,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "25"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "25",
+        "colored_fig6b": true
       },
       "position" : {
         "x" : 1048.8099522695834,
@@ -771,7 +802,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "27"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "27",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : 1048.388199339896,
@@ -795,7 +827,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "118"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "118",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -437.1869276070951,
@@ -819,7 +852,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "47"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "47",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : 129.83271838286464,
@@ -843,7 +877,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "18"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "18",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : 57.621437560110735,
@@ -867,7 +902,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "395"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "395",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -509.83899669889195,
@@ -891,7 +927,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "14"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "14",
+        "colored_fig6b": true
       },
       "position" : {
         "x" : -372.86072521451695,
@@ -915,7 +952,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "36"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "36",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -1163.2259555581559,
@@ -939,7 +977,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "69"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "69",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -468.86170177701695,
@@ -963,7 +1002,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "97"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "97",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -500.6906202340482,
@@ -987,7 +1027,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "54"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "54",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -862.081672480142,
@@ -1011,7 +1052,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "579"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "579",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -613.713264277017,
@@ -1035,7 +1077,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "640"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "640",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -1662.2790561440934,
@@ -1059,7 +1102,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "109"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "109",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -1499.9043002847184,
@@ -1083,7 +1127,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "199"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "199",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -1567.2607455972184,
@@ -1107,7 +1152,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "255"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "255",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -390.1204603219388,
@@ -1131,7 +1177,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "305"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "305",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -524.608772089517,
@@ -1155,7 +1202,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "116"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "116",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -348.68726330045445,
@@ -1179,7 +1227,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "248"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "248",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -442.0366590524076,
@@ -1203,7 +1252,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "14"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "14",
+        "colored_fig6b": true
       },
       "position" : {
         "x" : -18.951348771066023,
@@ -1227,7 +1277,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "14"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "14",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : 12.199150572806047,
@@ -1251,7 +1302,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "19"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "19",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -375.3511121774076,
@@ -1275,7 +1327,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "28"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "28",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -300.8268507027982,
@@ -1299,7 +1352,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "24"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "24",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -1182.6837192300309,
@@ -1323,7 +1377,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "96"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "96",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -1289.6546664956559,
@@ -1347,7 +1402,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "77"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "77",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -789.802375605142,
@@ -1371,7 +1427,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "91"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "91",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -705.1486890817044,
@@ -1395,7 +1452,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "369"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "369",
+        "colored_fig6b": true
       },
       "position" : {
         "x" : -1902.1329379800309,
@@ -1420,6 +1478,7 @@
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
         "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "369"
+        "colored_fig6b": true
       },
       "position" : {
         "x" : -1781.6641879800309,
@@ -1443,7 +1502,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "45"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "45",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : 469.3316807852084,
@@ -1467,7 +1527,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "700"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "700",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : 472.2131505117709,
@@ -1491,7 +1552,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "253"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "253",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -1486.5712924722184,
@@ -1515,7 +1577,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "40"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "40",
+        "colored_fig6b": true
       },
       "position" : {
         "x" : -1684.4392123940934,
@@ -1539,7 +1602,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "662"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "662",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -1551.4711948159684,
@@ -1563,7 +1627,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "293"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "293",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -1462.3710971597184,
@@ -1587,7 +1652,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "639"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "639",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : -1572.4785190347184,
@@ -1611,7 +1677,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "15"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "15",
+        "colored_fig6b": true
       },
       "position" : {
         "x" : -1805.8155551675309,
@@ -1635,7 +1702,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "34"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "34",
+        "colored_fig6b": true
       },
       "position" : {
         "x" : -1733.6894565347184,
@@ -1659,7 +1727,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "64"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "64",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : 678.3014073477084,
@@ -1683,7 +1752,8 @@
         "nodeFontSize_GO_DE_2359SMPs_cor0p8_181lincRNAs" : 14,
         "X_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "962",
         "selected" : false,
-        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "72"
+        "xx_GO_DE_2359SMPs_cor0p8_181lincRNAs" : "72",
+        "colored_fig6b": false
       },
       "position" : {
         "x" : 584.4264073477084,
