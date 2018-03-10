@@ -18,11 +18,12 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.urls import path
 
-from visualization.views import index, sm_view, cyto_view
+from visualization.views import index, sm_view, cyto_view, cytoscape_download
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name="index"),
     path('sm_view/<gene_id>', sm_view, name="sm_view"),
     path('cyto_view/', cyto_view, name="cyto_view"),
+    path('net_downloads/', cytoscape_download, name="cytoscape_download"),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

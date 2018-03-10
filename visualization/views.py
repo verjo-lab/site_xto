@@ -10,6 +10,10 @@ def index(request):
     table = GeneLocationTable
     return render(request, "index.html", {'table': table})
 
+
+def cytoscape_download(request):
+    return render(request, "cytoscape_download.html")
+
 def sm_view(request, gene_id):
     gene_obj = get_object_or_404(GeneLocation, gene_id = gene_id)
 
