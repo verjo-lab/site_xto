@@ -202,7 +202,7 @@
           "nodeSize_GO_DE_2359SMPs_cor0p8_181lincRNAs": 10.770329614269,
           "description_GO_DE_2359SMPs_cor0p8_181lincRNAs": "G-protein coupled receptor activity",
           "shared_name": "4930",
-          "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs": 0,
+          "pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs": 1,
           "SUID": 71651,
           "nodeType_GO_DE_2359SMPs_cor0p8_181lincRNAs": "ellipse",
           "name": "G-protein coupled receptor activity",
