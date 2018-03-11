@@ -15,9 +15,11 @@ list_sergio = [
     "extracellular matrix",
     "dynein complex",
     "monovalent inorganic cation transmembrane transporter",
+    "G-protein coupled receptor protein signaling pathway",
+    "G-protein coupled receptor activity",
 ]
 
-with open("/home/vmesel/GitHub/site_xto/static/cytoscape/CoexpNetwork-cor0p8-DEedgeDE-lincSMP-181mainInt_v2.cyjs", "r") as js:
+with open("PATH_HERE/static/cytoscape/CoexpNetwork-cor0p8-DEedgeDE-lincSMP-181mainInt_v2.cyjs", "r") as js:
     a = json.load(js)
 
     for item in a["elements"]["nodes"]:
@@ -27,5 +29,5 @@ with open("/home/vmesel/GitHub/site_xto/static/cytoscape/CoexpNetwork-cor0p8-DEe
         else:
             item["data"]["pValue_GO_DE_2359SMPs_cor0p8_181lincRNAs"] = 0.000000
 
-with open("/home/vmesel/GitHub/site_xto/static/cytoscape/new_cyto2.cyjs", 'w') as b:
+with open("PATH_HERE/static/cytoscapenew_cyto2.cyjs", 'w') as b:
     json.dump(a, b)

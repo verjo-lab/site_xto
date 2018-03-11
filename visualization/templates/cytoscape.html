@@ -14,10 +14,9 @@
     }
 </style>
 <h3><b><i>Schistosoma mansoni</i> enriched Gene Ontologies (green) for lincRNAs-coexpressed protein-coding genes</b></h3>
-<p>You can zoom in and move the network nodes in your browser. Or you can download the .cys network file for visualization in your local Cytoscape tool.<br/></p>
+<p>You can zoom in and move the network nodes in your browser. Or you can go to the <a href="{%url 'cytoscape_download'%}">“Other Cytoscape Networks”</a> page to download the .cys network file for visualization in your local Cytoscape tool.<br/></p>
 <hr>
 <div id="cy"></div>
-<!-- http://localhost:8000/static/cytoscape/CoexpNetwork-cor0p8-DEedgeDE-lincSMP-181mainInt_v2.cyjs -->
 
 <script type="text/javascript">
 $.getJSON("{% static 'cytoscape/new_cyto2.cyjs' %}", function (data) {
