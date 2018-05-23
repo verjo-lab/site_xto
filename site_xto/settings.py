@@ -79,7 +79,8 @@ WSGI_APPLICATION = 'site_xto.wsgi.application'
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
 DATABASES = {}
-DATABASES['default'] = dj_database_url.config(default='sqlite:///%s/db.sqlite3' % (BASE_DIR))
+# DATABASES['default'] = dj_database_url.config(default='sqlite:///%s/db.sqlite3' % (BASE_DIR))
+DATABASES['default'] = dj_database_url.config(default='postgres://vmesel:vmesel@db:5432/banco')
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
