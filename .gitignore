@@ -216,6 +216,6 @@ venv.bak/
 
 
 # End of https://www.gitignore.io/api/pydev,python,pycharm,pycharm+all,jupyternotebook
-static/Fig6A/
-static/Fig7A_S3/
-static/FigS5/
+Fig6A/
+FigS5/
+Fig7A_S3/

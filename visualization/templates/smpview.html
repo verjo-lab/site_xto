@@ -1,0 +1,144 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block container-central %}
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li class="active">{{ LINC }}</li>
+</ol>
+  <div class="col-md-12">
+    <h1>{{ SMP }} Data</h1>
+        <hr>
+        <!-- Start Collapsable Part -->
+
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                  <b>Correlation between {{ LINC }} and neighbor Protein Coding Genes or Protein Coding genes with putative trans-acting mechanisms, with correlation coefficient r >= 0.5 or r <= -0.5</b> [ Click Here for Details ]
+                </a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+              <div class="panel-body">
+                  <div id="fig7a_div">
+                    <a href="{{ URL_FIG_7A }}" target="_blank">
+                      <center>
+                      <figure>
+                          <img src="{{ URL_FIG_7A }}" id="fig7a" alt="" width="450" height="250" class="figure-img">
+                          <figcaption>Fig. 7A S3 for {{ LINC }} with r => 0.5 or r <= -0.5</figcaption>
+                      </figure>
+                    </center>
+                    </a>
+                  <br>
+                  <h3>Expression Fold Change Data [Log 2(FC)] - <a href="{{ URL_Fig7A_S3_FCs_table }}">Download data</a></h3>
+                  <hr>
+                  <div id="fig7a_fcs_table">
+                    {% autoescape off %}{{ Fig7A_S3_FCs_table }}{% endautoescape %}
+                  </div>
+
+                  <h3>Pearson Correlation Coeficient Data - <a href="{{ URL_Fig7A_S3_PCCs_table }}">Download data</a></h3>
+                  <hr>
+                    <div id="fig7a_pccs_table">
+                      {% autoescape off %}{{ Fig7A_S3_PCCs_table }}{% endautoescape %}
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                  <b>Correlation between {{ LINC }} and all differentially expressed Protein Coding Genes across life cycle stages, with correlation coefficient r >= 0.8 or r <= -0.8</b> [ Click Here for Details ]
+                </a>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+              <div class="panel-body">
+                <div id="fig6a_div">
+                  <a href="{{ URL_FIG_6A }}" target="_blank" id="fig6a_div">
+                    <center>
+                      <figure>
+                        <img src="{{ URL_FIG_6A }}" id="fig6a" alt="" width="450" height="250" class="figure-img">
+                        <figcaption>Fig. 6A for {{ LINC }} with r => 0.8 or r <= -0.8</figcaption>
+                      </figure>
+                    </center>
+                  </a>
+                  <h3>Expression Fold Change Data [Log 2(FC)] - <a href="{{ URL_Fig6A_FCs_table }}">Download data</a></h3>
+                  <hr>
+                  <div id="fig6a_fcs_table">
+                    {% autoescape off %}{{ Fig6A_FCs_table }}{% endautoescape %}
+                  </div>
+
+                  <h3>Pearson Correlation Coeficient Data - <a href="{{ URL_Fig6A_PCCs_table }}">Download data</a></h3>
+                  <hr>
+                    <div id="fig6a_pccs_table">
+                      {% autoescape off %}{{ Fig6A_PCCs_table }}{% endautoescape %}
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                  <b>Correlation between this {{ LINC }} and all highly differentially expressed Smps (log2 FC >= 10 in at least one developmental stage), with correlation coefficient r >= 0.9 or r <= -0.9</b> [ Click Here for Details ]
+                </a>
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+              <div class="panel-body">
+                <div id="figs5_div">
+                  <center>
+                    <figure>
+                    <a href="{{ URL_FIG_S5 }}" target="_blank">
+                        <img src="{{ URL_FIG_S5 }}" id="figs5" alt="" width="450" height="250" class="figure-img">
+                        <figcaption>Fig. S5 for {{ LINC }} with  r => 0.9 or r <= -0.9</figcaption>
+                    </a>
+                    </figure>
+                  </center>
+                    <h3>Expression Fold Change Data [Log 2(FC)] - <a href="{{ URL_FigS5_FCs_table }}">Download data</a></h3>
+                    <hr>
+                    <div id="fig6a_fcs_table">
+                      {% autoescape off %}{{ FigS5_FCs_table }}{% endautoescape %}
+                    </div>
+
+                    <h3>Pearson Correlation Coeficient Data - <a href="{{ URL_FigS5_PCCs_table }}">Download data</a></h3>
+                    <hr>
+                      <div id="fig6a_pccs_table">
+                        {% autoescape off %}{{ FigS5_PCCs_table }}{% endautoescape %}
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- End collapsable part -->
+
+
+    </div>
+<script type="text/javascript">
+    var img = document.getElementById("fig7a");
+    img.onerror = function () {
+        var div = document.getElementById("fig7a_div");
+        div.innerHTML = "<center><h3>No Data Available</3></center>";
+    };
+
+    var img2 = document.getElementById("fig6a");
+    img2.onerror = function () {
+        var div = document.getElementById("fig6a_div");
+        div.innerHTML = "<center><h3>No Data Available</3></center>";
+    };
+
+    var img3 = document.getElementById("figs5");
+    img3.onerror = function () {
+        var div = document.getElementById("figs5_div");
+        div.innerHTML = "<center><h3>No Data Available</3></center>";
+    };
+    var div7a_table = document.getElementById("fig7a_fcs_table");
+</script>
+{% endblock container-central %}

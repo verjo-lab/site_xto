@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load table_tags %}
+
+
+{% block container-central %}
+<h1><b>Search results for: </b>'{{s}}'</h1>
+<p>
+  <ul>
+{%for smp in qs%}
+  <li>
+    <a href="{% url 'smp_view' gene_id=smp.smp %}">{{smp.smp}}</a>
+  </li>
+{%endfor%}
+  </ul>
+</p>
+{% endblock container-central %}

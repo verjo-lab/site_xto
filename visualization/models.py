@@ -10,3 +10,6 @@ class GeneLocation(models.Model):
     block_sizes = models.CharField(default="", max_length=256)
     block_starts = models.CharField(default="", max_length=256)
     link = models.URLField()
+
+class Smp(models.Model):
+    smp =  models.CharField(default="", max_length=256)
