@@ -4,7 +4,7 @@
 {% block container-central %}
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
-  <li class="active">{{ LINC }}</li>
+  <li class="active">{{ SMP }}</li>
 </ol>
   <div class="col-md-12">
     <h1>{{ SMP }} Data</h1>
@@ -16,7 +16,7 @@
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                  <b>Correlation between {{ LINC }} and neighbor Protein Coding Genes or Protein Coding genes with putative trans-acting mechanisms, with correlation coefficient r >= 0.5 or r <= -0.5</b> [ Click Here for Details ]
+                  <b>Correlation between {{SMP}} and neighbor SmLINCs or SmLINCs with putative trans-acting mechanisms, with correlation coefficient r >= 0.5 or r <= -0.5</b> [ Click Here for Details ]
                 </a>
               </h4>
             </div>
@@ -51,7 +51,7 @@
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                  <b>Correlation between {{ LINC }} and all differentially expressed Protein Coding Genes across life cycle stages, with correlation coefficient r >= 0.8 or r <= -0.8</b> [ Click Here for Details ]
+                  <b>Correlation between {{SMP}} and robust SmLINCs (presenting four functional traits) across life cycle stages, with correlation coefficient r >= 0.8 or r <= -0.8</b> [ Click Here for Details ]
                 </a>
               </h4>
             </div>
@@ -85,7 +85,7 @@
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                  <b>Correlation between this {{ LINC }} and all highly differentially expressed Smps (log2 FC >= 10 in at least one developmental stage), with correlation coefficient r >= 0.9 or r <= -0.9</b> [ Click Here for Details ]
+                  <b>Correlation between {{SMP}} and highly differentially expressed Smps (log2 FC >= 10 in at least one developmental stage) and/or SmLINCs, with correlation coefficient r >= 0.9 or r <= -0.9</b> [ Click Here for Details ]
                 </a>
               </h4>
             </div>
