@@ -27,16 +27,22 @@ def sm_view(request, gene_id):
             "URL_FIG_S5": "http://verjo101.butantan.gov.br/users/vinicius/static/FigS5/" + gene_id + ".png",
     }
     columns_fcs = ["Gene ID", "Cerc", "3S", "24S", "Male", "Female"]
-    columns_pccs = ["Compared Gene", "Gene", "Pearson Correlation Value", "p-value"]
+    columns_pccs = ["Compared Gene", "Gene", "Pearson Correlation Value", "p-value", "Adjusted p-value"]
 
     for i in ["Fig7A_S3", "Fig6A", "FigS5"]:
         for j in ["FCs", "PCCs"]:
-
-            display_file = "http://verjo101.butantan.gov.br/users/vinicius/static/{folder}/{gene}-{cc}.tsv".format(
-                folder=i,
-                gene=gene_id,
-                cc=j
-            )
+            if j == "PCCs":
+                display_file = "http://verjo101.butantan.gov.br/users/vinicius/static/{folder}/{gene}-{cc}.tsv".format(
+                    folder=i,
+                    gene=gene_id,
+                    cc=j + "-bonf"
+                )
+            else:
+                display_file = "http://verjo101.butantan.gov.br/users/vinicius/static/{folder}/{gene}-{cc}.tsv".format(
+                    folder=i,
+                    gene=gene_id,
+                    cc=j
+                )
             context_name = "{i}_{j}_table".format(i=i, j=j)
             context_url_name = "URL_{i}_{j}_table".format(i=i, j=j)
             try:
