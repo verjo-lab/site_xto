@@ -14,4 +14,4 @@ class GeneLocationTable(Table):
     block_counts = Column(field='block_counts', header="# of Exons")
     class Meta:
         model = GeneLocation
-        search_placeholder = "Search for your gene"
+        search_placeholder = "Search for your SmLINC"

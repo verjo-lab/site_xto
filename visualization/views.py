@@ -13,6 +13,10 @@ def index(request):
     return render(request, "index.html", {'table': table})
 
 
+def datasets_used(request):
+    return render(request, "datasets_used.html")
+
+
 def cytoscape_download(request):
     return render(request, "cytoscape_download.html")
 

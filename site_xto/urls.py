@@ -28,4 +28,5 @@ urlpatterns = [
     path('smp_search/', smp_search, name="smp_search"),
     path('cyto_view/', cyto_view, name="cyto_view"),
     path('net_downloads/', cytoscape_download, name="cytoscape_download"),
+    path('datasets/', datasets_used, name="datasets_used"),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
