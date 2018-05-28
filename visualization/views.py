@@ -31,7 +31,7 @@ def sm_view(request, gene_id):
             "URL_FIG_S5": "http://verjo101.butantan.gov.br/users/vinicius/static/FigS5/" + gene_id + ".png",
     }
     columns_fcs = ["Gene ID", "Cerc", "3S", "24S", "Male", "Female"]
-    columns_pccs = ["Compared Gene", "Gene", "Pearson Correlation Value", "p-value", "Adjusted p-value"]
+    columns_pccs = ["Compared Gene", "Gene", "Pearson Correlation Value", "p-value", "B.-H. adjusted p-value"]
 
     for i in ["Fig7A_S3", "Fig6A", "FigS5"]:
         for j in ["FCs", "PCCs"]:
@@ -39,7 +39,7 @@ def sm_view(request, gene_id):
                 display_file = "http://verjo101.butantan.gov.br/users/vinicius/static/{folder}/{gene}-{cc}.tsv".format(
                     folder=i,
                     gene=gene_id,
-                    cc=j + "-bonf"
+                    cc=j + "-BHadj"
                 )
             else:
                 display_file = "http://verjo101.butantan.gov.br/users/vinicius/static/{folder}/{gene}-{cc}.tsv".format(
@@ -96,7 +96,7 @@ def smp_view(request, gene_id):
             "URL_FIG_S5": "http://verjo101.butantan.gov.br/users/vinicius/static/FigS5/" + gene_id + ".png",
     }
     columns_fcs = ["Gene ID", "Cerc", "3S", "24S", "Male", "Female"]
-    columns_pccs = ["Compared Gene", "Gene", "Pearson Correlation Value", "p-value", "Adjusted p-value"]
+    columns_pccs = ["Compared Gene", "Gene", "Pearson Correlation Value", "p-value", "B.-H. adjusted p-value"]
 
     for i in ["Fig7A_S3", "Fig6A", "FigS5"]:
         for j in ["FCs", "PCCs"]:
@@ -105,7 +105,7 @@ def smp_view(request, gene_id):
                 display_file = "http://verjo101.butantan.gov.br/users/vinicius/static/{folder}/{gene}-{cc}.tsv".format(
                     folder=i,
                     gene=gene_id,
-                    cc=j + "-bonf"
+                    cc=j + "-BHadj"
                 )
             else:
                 display_file = "http://verjo101.butantan.gov.br/users/vinicius/static/{folder}/{gene}-{cc}.tsv".format(
@@ -118,6 +118,7 @@ def smp_view(request, gene_id):
             try:
                 if j == "FCs":
                     columns = columns_fcs
+                    df = df.sort_values('Female', ascending=True)
                 else:
                     columns = columns_pccs
 
