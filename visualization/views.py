@@ -118,7 +118,7 @@ def smp_view(request, gene_id):
             try:
                 if j == "FCs":
                     columns = columns_fcs
-                    df = df.sort_values('Female', ascending=True)
+                    # df = df.sort_values('Female', ascending=True)
                 else:
                     columns = columns_pccs
 
