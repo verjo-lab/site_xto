@@ -8,7 +8,7 @@
 </ol>
   <div class="col-md-12">
     <h1>{{ LINC }} Data</h1>
-    <p>Chromosome: <b>{{ GENE_OBJ.chromosome }}</b> - Coordinate: <b>{{ GENE_OBJ.chromosome }}:{{ GENE_OBJ.chromosome_start }}-{{ GENE_OBJ.chromosome_end }}</b> - Strand: <b>{{ GENE_OBJ.strand }}</b></p>
+    <p>Chromosome: <b>{{ GENE_OBJ.chromosome }}</b>    -    Coordinate: <b>{{ GENE_OBJ.chromosome }}:{{ GENE_OBJ.chromosome_start }}-{{ GENE_OBJ.chromosome_end }}</b>    -    Strand: <b>{{ GENE_OBJ.strand }}</b></p>
         <hr>
         <!-- Start Collapsable Part -->
 
@@ -17,7 +17,7 @@
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                  <b>Correlation between {{ LINC }} and neighbor Protein Coding Genes (maximum of two upstream and two downstream of the SmLINC in the genome) or Protein Coding Genes with putative trans-acting mechanisms, with correlation coefficient r >= 0.5 or r <= -0.5</b> [ Click Here for Details ]
+                  <b>Correlation between {{ LINC }} and neighbor Protein Coding Genes (maximum of two upstream and two downstream of the SmLINC in the genome) or Protein Coding Genes with putative trans-acting mechanisms, with correlation coefficient r &ge; 0.5 or r &le; -0.5</b> [ Click Here for Details ]
                 </a>
               </h4>
             </div>
@@ -28,12 +28,12 @@
                       <center>
                       <figure>
                           <img src="{{ URL_FIG_7A }}" id="fig7a" alt="" width="450" height="250" class="figure-img">
-                          <figcaption>Fig. 7A S3 for {{ LINC }} with r => 0.5 or r <= -0.5</figcaption>
+                          <figcaption>Fig. 7A S3 for {{ LINC }} with r &ge; 0.5 or r &le; -0.5..</figcaption>
                       </figure>
                     </center>
                     </a>
                   <br>
-                  <h3>Expression Fold Change Data [Log 2(FC)] - <a href="{{ URL_Fig7A_S3_FCs_table }}">Download data</a></h3>
+                  <h3>Expression Fold Change Data [log<sub>2</sub>(FC)] - <a href="{{ URL_Fig7A_S3_FCs_table }}">Download data</a></h3>
                   <hr>
                   <div id="fig7a_fcs_table">
                     {% autoescape off %}{{ Fig7A_S3_FCs_table }}{% endautoescape %}
@@ -52,7 +52,7 @@
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                  <b>Correlation between {{ LINC }} and all differentially expressed Protein Coding Genes across life cycle stages, with correlation coefficient r >= 0.8 or r <= -0.8</b> [ Click Here for Details ]
+                  <b>Correlation between {{ LINC }} and all differentially expressed Protein Coding Genes across life cycle stages, with correlation coefficient r &ge; 0.8 or r &le; -0.8</b> [ Click Here for Details ]
                 </a>
               </h4>
             </div>
@@ -63,11 +63,11 @@
                     <center>
                       <figure>
                         <img src="{{ URL_FIG_6A }}" id="fig6a" alt="" width="450" height="250" class="figure-img">
-                        <figcaption>Fig. 6A for {{ LINC }} with r => 0.8 or r <= -0.8</figcaption>
+                        <figcaption>Fig. 6A for {{ LINC }} with r &ge; 0.8 or r &le; -0.8.</figcaption>
                       </figure>
                     </center>
                   </a>
-                  <h3>Expression Fold Change Data [Log 2(FC)] - <a href="{{ URL_Fig6A_FCs_table }}">Download data</a></h3>
+                  <h3>Expression Fold Change Data [log<sub>2</sub>(FC)] - <a href="{{ URL_Fig6A_FCs_table }}">Download data</a></h3>
                   <hr>
                   <div id="fig6a_fcs_table">
                     {% autoescape off %}{{ Fig6A_FCs_table }}{% endautoescape %}
@@ -86,7 +86,7 @@
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                  <b>Correlation between this {{ LINC }} and all highly differentially expressed Smps (log2 FC >= 10 in at least one developmental stage), with correlation coefficient r >= 0.9 or r <= -0.9</b> [ Click Here for Details ]
+                  <b>Correlation between {{ LINC }} and all highly differentially expressed Smps (log2 FC &ge; 10 in at least one developmental stage), with correlation coefficient r &ge; 0.9 or r &le; -0.9</b> [ Click Here for Details ]
                 </a>
               </h4>
             </div>
@@ -97,11 +97,11 @@
                     <figure>
                     <a href="{{ URL_FIG_S5 }}" target="_blank">
                         <img src="{{ URL_FIG_S5 }}" id="figs5" alt="" width="450" height="250" class="figure-img">
-                        <figcaption>Fig. S5 for {{ LINC }} with  r => 0.9 or r <= -0.9</figcaption>
+                        <figcaption>Fig. S5 for {{ LINC }} with  r &ge; 0.9 or r &le; -0.9.</figcaption>
                     </a>
                     </figure>
                   </center>
-                    <h3>Expression Fold Change Data [Log 2(FC)] - <a href="{{ URL_FigS5_FCs_table }}">Download data</a></h3>
+                    <h3>Expression Fold Change Data [log<sub>2</sub>(FC)] - <a href="{{ URL_FigS5_FCs_table }}">Download data</a></h3>
                     <hr>
                     <div id="fig6a_fcs_table">
                       {% autoescape off %}{{ FigS5_FCs_table }}{% endautoescape %}
