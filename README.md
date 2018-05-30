@@ -1,4 +1,4 @@
-# Schisto LincRNA Database
+# Schistosoma mansoni lncRNA Database
 
 ## How to develop for the Schisto LincRNA Database
 
