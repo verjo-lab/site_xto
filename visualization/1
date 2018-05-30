@@ -23,6 +23,7 @@ def cytoscape_download(request):
 def sm_view(request, gene_id):
     gene_obj = get_object_or_404(GeneLocation, gene_id = gene_id)
     pd.set_option('display.max_colwidth', -1)
+    pd.set_option('display.float_format', '{:.2E}'.format)
     context = {
             "LINC": gene_id,
             "GENE_OBJ": gene_obj,
@@ -71,8 +72,6 @@ def sm_view(request, gene_id):
                     df['Compared Gene'] = df['Compared Gene'].apply(
                         lambda x: '<a href="/smp_view/{0}">{0}</a>'.format(x) if "Smp" in x else '<a href="/sm_view/{0}">{0}</a>'.format(x)
                     )
-                    df["B.-H. adjusted p-value"] = df["B.-H. adjusted p-value"].apply(lambda x: '%.2e' % x)
-                    df["p-value"] = df["p-value"].apply(lambda x: '%.2e' % x)
 
                 context[context_name] = df.to_html(
                     classes = ["table", "table-striped", "table-hover"],
@@ -91,6 +90,7 @@ def sm_view(request, gene_id):
 
 def smp_view(request, gene_id):
     pd.set_option('display.max_colwidth', -1)
+    pd.set_option('display.float_format', '{:.2E}'.format)
     context = {
             "SMP": gene_id,
             'URL_FIG_7A': "http://verjolab.usp.br:8000/static/Fig7A_S3/" + gene_id + ".png",
@@ -139,10 +139,6 @@ def smp_view(request, gene_id):
                     df['Gene'] = df['Gene'].apply(
                         lambda x: '<a href="/smp_view/{}">{}</a>'.format(x,x) if "Smp" in x else '<a href="/sm_view/{0}">{0}</a>'.format(x)
                     )
-
-                    df["B.-H. adjusted p-value"] = df["B.-H. adjusted p-value"].apply(lambda x: '%.2e' % x)
-                    df["p-value"] = df["p-value"].apply(lambda x: '%.2e' % x)
-
 
                 context[context_name] = df.to_html(
                     classes = ["table", "table-striped", "table-hover"],
