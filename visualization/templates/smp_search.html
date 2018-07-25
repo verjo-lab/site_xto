@@ -7,7 +7,7 @@
 <h1><b>Search results for: </b>'{{s}}'</h1>
 <p>
   <ul>
-{% if messages|length >= 1 %}
+{% if qs|length >= 1 %}
 {%for smp in qs%}
   <li>
     <a href="{% url 'smp_view' gene_id=smp.smp %}">{{smp.smp}}</a>
@@ -15,7 +15,7 @@
 {%endfor%}
 {%else%}
 <li>
-  No correlation with SmLINCs was found for {{smp.smp}}.
+  No correlation with SmLINCs was found for {{s}}.
 </li>
 {% endif %}
   </ul>
