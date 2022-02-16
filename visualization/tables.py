@@ -1,4 +1,4 @@
-from visualization.models import GeneLocation
+from visualization.models import GeneLocation, ClusterSMPSmlinc
 from table import Table
 from table.columns import Column, LinkColumn, Link
 
@@ -15,3 +15,14 @@ class GeneLocationTable(Table):
     class Meta:
         model = GeneLocation
         search_placeholder = "Search for your SmLINC"
+
+
+class SmLincExpression(Table):
+    gene_id = LinkColumn(field='gene_id__smp', header="SmLINC", links=[Link(text=A('gene_id'), viewname="sm_view", kwargs={"gene_id":A('gene_id')})])
+    matrix_name = Column(field='matrix_name', header="Chromosome")
+    transcripts_id = Column(field='transcripts_id', header="Transcript ID")
+    gene_type = Column(field='gene_type', header="Gene Type")
+    is_detected = Column(field='is_detected', header="Is Detected")
+
+    class Meta:
+        model = ClusterSMPSmlinc

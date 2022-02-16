@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load table_tags %}
+
+
+{% block container-central %}
+<p id="atlas-paper-info">
+  This page needs a description.
+</p>
+<hr>
+<p id="atlas-paper-info">
+  This page needs a description of the data.
+</p>
+<hr/>
+<p><b>Search for your Smp protein-coding gene of interest to retrieve the SmLINCs with correlated expression.</b></p>
+<div class="row">
+
+<div class="col-sm-3 col-md-3 col-lg-3">
+<form class="" action="{% url 'smp_search' %}" method="post">
+  {% csrf_token %}
+
+<div class="input-group">
+  <span class="input-group-addon filter_icon">
+    <i class="glyphicon glyphicon-search"></i>
+  </span>
+  <input type="text" class="form-control input-sm input" placeholder="Search for your Smp" name="smp">
+</div>
+</form>
+</div>
+</div>
+<p><b>Search for your SmLINC of interest to retrieve expressed clusters:</b></p>
+  {% render_table table %}
+{% endblock container-central %}

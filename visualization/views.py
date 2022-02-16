@@ -2,7 +2,7 @@ import pandas as pd
 
 from django.shortcuts import render, redirect, get_object_or_404
 
-from visualization.tables import GeneLocationTable
+from visualization.tables import GeneLocationTable, SmLincExpression
 from visualization.models import GeneLocation, Smp
 
 from simple_search import search_filter
@@ -12,10 +12,19 @@ def index(request):
     table = GeneLocationTable
     return render(request, "index.html", {'table': table})
 
+def lncrna_cluster_search(request):
+    table = SmLincExpression
+    return render(request, "schisto_cyte.html", {
+        'table': table,
+        'page_title': "Schistosoma mansoni Cyte Cluster"
+    })
+
+def lncrnas_cluster_view(request, gene_id):
+    pass
+
 
 def datasets_used(request):
     return render(request, "datasets_used.html")
-
 
 def cytoscape_download(request):
     return render(request, "cytoscape_download.html")
