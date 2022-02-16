@@ -25,6 +25,7 @@ urlpatterns = [
     path('', index, name="index"),
     path('cluster-search/', lncrna_cluster_search, name="lncrna_cluster_search"),
     path('sm_view/<gene_id>', sm_view, name="sm_view"),
+    path('cluster_view/<gene_id>', lncrnas_cluster_view, name="lncrnas_cluster_view"),
     path('smp_view/<gene_id>', smp_view, name="smp_view"),
     path('smp_search/', smp_search, name="smp_search"),
     path('cyto_view/', cyto_view, name="cyto_view"),

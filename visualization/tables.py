@@ -18,8 +18,7 @@ class GeneLocationTable(Table):
 
 
 class SmLincExpression(Table):
-    gene_id = LinkColumn(field='gene_id__smp', header="SmLINC", links=[Link(text=A('gene_id'), viewname="sm_view", kwargs={"gene_id":A('gene_id')})])
-    matrix_name = Column(field='matrix_name', header="Chromosome")
+    gene_id = LinkColumn(field='gene_id__smp', header="SmLINC", links=[Link(text=A('gene_id'), viewname="lncrnas_cluster_view", kwargs={"gene_id":A('gene_id')})])
     transcripts_id = Column(field='transcripts_id', header="Transcript ID")
     gene_type = Column(field='gene_type', header="Gene Type")
     is_detected = Column(field='is_detected', header="Is Detected")
