@@ -219,3 +219,5 @@ venv.bak/
 Fig6A/
 FigS5/
 Fig7A_S3/
+.tool-versions/*
+.tool-versions

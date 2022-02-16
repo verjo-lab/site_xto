@@ -11,12 +11,13 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
-import dj_database_url
+from dj_database_url import parse as db_url
 from decouple import config
+from unipath import Path
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+BASE_DIR_PARENT = Path(__file__).parent
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
@@ -78,9 +79,13 @@ WSGI_APPLICATION = 'site_xto.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
-DATABASES = {}
-# DATABASES['default'] = dj_database_url.config(default='sqlite:///%s/db.sqlite3' % (BASE_DIR))
-DATABASES['default'] = dj_database_url.config(default='postgres://vmesel:vmesel@db:5432/banco')
+DATABASES = {
+    "default": config(
+        "DATABASE_URL",
+        default="sqlite:///" + BASE_DIR_PARENT.child("db.sqlite3"),
+        cast=db_url,
+    )
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
