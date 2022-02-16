@@ -221,3 +221,5 @@ FigS5/
 Fig7A_S3/
 .tool-versions/*
 .tool-versions
+site_xto/db.sqlite3
+db.sqlite3
