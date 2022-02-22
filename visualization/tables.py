@@ -1,4 +1,4 @@
-from visualization.models import GeneLocation, ClusterSMPSmlinc
+from visualization.models import GeneLocation, ClusterSMPSmlinc, ClusterMatrix
 from table import Table
 from table.columns import Column, LinkColumn, Link
 
@@ -18,10 +18,19 @@ class GeneLocationTable(Table):
 
 
 class SmLincExpression(Table):
-    gene_id = LinkColumn(field='gene_id__smp', header="SmLINC", links=[Link(text=A('gene_id'), viewname="lncrnas_cluster_view", kwargs={"gene_id":A('gene_id')})])
+    gene_id = LinkColumn(field='gene_id__smp', header="Gene ID", links=[Link(text=A('gene_id'), viewname="lncrnas_cluster_view", kwargs={"gene_id":A('gene_id')})])
     transcripts_id = Column(field='transcripts_id', header="Transcript ID")
     gene_type = Column(field='gene_type', header="Gene Type")
     is_detected = Column(field='is_detected', header="Is Detected")
 
     class Meta:
         model = ClusterSMPSmlinc
+
+
+class ClusterMatrixTable(Table):
+    transcript_id = LinkColumn(field='transcript_id__smp', header="Transcript ID", links=[Link(text=A('transcript_id'), viewname="lncrnas_cluster_view", kwargs={"gene_id": A('transcript_id')})])
+    matrix_name = Column(field='matrix_name', header="Matrix Name")
+    gene = Column(field='gene', header="Gene")
+    enrichment = Column(field='enrichment', header="Enrichment")
+    adjusted_p_value = Column(field='adjusted_p_value', header="Adjusted P value")
+    description = Column(field='description', header="Description")

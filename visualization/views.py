@@ -2,8 +2,8 @@ import pandas as pd
 
 from django.shortcuts import render, redirect, get_object_or_404
 
-from visualization.tables import GeneLocationTable, SmLincExpression
-from visualization.models import GeneLocation, Smp, ClusterSMPSmlinc
+from visualization.tables import *
+from visualization.models import *
 
 from simple_search import search_filter
 
@@ -20,15 +20,31 @@ def lncrna_cluster_search(request):
     })
 
 def lncrnas_cluster_view(request, gene_id):
+    gene_id_for_url = gene_id.replace("_", "-")
     return render(request, "smlinc_cluster.html", context={
         "page_title": "{} - Clusters".format(gene_id),
         "SMP": gene_id,
-        "URL_FIG_ALL": "http://verjolab.usp.br:8000/static/clusters/" + gene_id + ".png",
-        "URL_FIG_FEMALE": "http://verjolab.usp.br:8000/static/clusters/" + gene_id + ".png",
-        "URL_FIG_IM": "http://verjolab.usp.br:8000/static/clusters/" + gene_id + ".png",
-        "URL_FIG_MALE": "http://verjolab.usp.br:8000/static/clusters/" + gene_id + ".png",
+        "URL_FIG_ALL": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + gene_id_for_url + "_all.png",
+        "URL_FIG_FEMALE": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + gene_id_for_url + "_female.png",
+        "URL_FIG_IM": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + gene_id_for_url + ".png",
+        "URL_FIG_MALE": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + gene_id_for_url + "_male.png",
         "transcripts": ClusterSMPSmlinc.objects.filter(gene_id__smp=gene_id)
     })
+
+
+def clusters_view(request):
+    return render(request, 'clusters.html', {
+        
+    })
+
+
+def cluster_view(request, cluster):
+    table = ClusterMatrixTable(ClusterMatrix.objects.filter(cluster=cluster))
+    return render(request, "schisto_cyte.html", {
+        'table': table,
+        'page_title': "{} Cluster Data".format(cluster)
+    })
+
 
 def datasets_used(request):
     return render(request, "datasets_used.html")

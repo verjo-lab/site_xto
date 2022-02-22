@@ -27,3 +27,13 @@ class ClusterSMPSmlinc(models.Model):
     transcripts_id = models.CharField(max_length=2000, default="", blank=True)
     gene_type = models.CharField(max_length=2000, default="", blank=True)
     is_detected = models.BooleanField(default = False)
+
+
+class ClusterMatrix(models.Model):
+    cluster = models.CharField(max_length=2000, default="", blank=True)
+    matrix_name = models.CharField(max_length=2000, default="", blank=True)
+    transcript_id = models.ForeignKey("Smp", on_delete=models.CASCADE)
+    gene = models.CharField(max_length=2000, default="", blank=True)
+    enrichment = models.CharField(max_length=2000, default="", blank=True)
+    adjusted_p_value = models.CharField(max_length=2000, default="", blank=True)
+    description = models.CharField(max_length=2000, default="", blank=True)
