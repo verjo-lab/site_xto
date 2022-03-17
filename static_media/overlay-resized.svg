@@ -4,7 +4,7 @@
 <svg
    width="742.10992"
    height="609.91907"
-   viewBox="0 0 196.34991 161.37442"
+   viewBox="24 109 200 75"
    version="1.1"
    id="svg5623"
    inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
@@ -41,15 +41,9 @@
   <defs
      id="defs5620" />
      <style type="text/css">
-      g {opacity:1}
-      g:hover {opacity:.2}
+      g {opacity:0}
+      g:hover {opacity:1}
    </style> 
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="Camada 2"
-     style="display:inline"
-     transform="translate(-26.210897,-64.538002)">
     <g
        id="g11372"
        style="display:inline">
@@ -1588,5 +1582,4 @@
          d="m 119.26463,183.3854 4.76124,9.08021"
          id="path468" />
     </g>
-  </g>
 </svg>

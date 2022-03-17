@@ -6,11 +6,20 @@ from visualization.tables import *
 from visualization.models import *
 
 from simple_search import search_filter
+from table.views import FeedDataView
 
 
 def index(request):
     table = GeneLocationTable
     return render(request, "index.html", {'table': table})
+
+
+class SmLincExpressionDataFeed(FeedDataView):
+    token = SmLincExpression.token
+
+    def get_queryset(self):
+        return super(SmLincExpressionDataFeed, self).get_queryset()
+
 
 def lncrna_cluster_search(request):
     table = SmLincExpression
@@ -19,16 +28,17 @@ def lncrna_cluster_search(request):
         'page_title': "Schistosoma mansoni Cyte Cluster"
     })
 
-def lncrnas_cluster_view(request, gene_id):
-    gene_id_for_url = gene_id.replace("_", "-")
+def lncrnas_cluster_view(request, matrix_name):
+    cluster_smp_smlinc_obj = ClusterSMPSmlinc.objects.filter(matrix_name=matrix_name)
+
     return render(request, "smlinc_cluster.html", context={
-        "page_title": "{} - Clusters".format(gene_id),
-        "SMP": gene_id,
-        "URL_FIG_ALL": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + gene_id_for_url + "_all.png",
-        "URL_FIG_FEMALE": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + gene_id_for_url + "_female.png",
-        "URL_FIG_IM": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + gene_id_for_url + ".png",
-        "URL_FIG_MALE": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + gene_id_for_url + "_male.png",
-        "transcripts": ClusterSMPSmlinc.objects.filter(gene_id__smp=gene_id)
+        "page_title": "{} - Clusters".format(matrix_name),
+        "SMP": matrix_name,
+        "URL_FIG_ALL": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + matrix_name + "_all.png",
+        "URL_FIG_FEMALE": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + matrix_name + "_female.png",
+        "URL_FIG_IM": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + matrix_name + "_IM.png",
+        "URL_FIG_MALE": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + matrix_name + "_male.png",
+        "transcripts": cluster_smp_smlinc_obj
     })
 
 
@@ -36,6 +46,7 @@ def clusters_view(request):
     return render(request, 'clusters.html', {
         
     })
+
 
 
 def cluster_view(request, cluster):
