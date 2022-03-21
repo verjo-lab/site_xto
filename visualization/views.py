@@ -69,9 +69,9 @@ def sm_view(request, gene_id):
     context = {
             "LINC": gene_id,
             "GENE_OBJ": gene_obj,
-            'URL_FIG_7A': "http://verjolab.usp.br:8000/static/Fig7A_S3/" + gene_id + ".png",
-            "URL_FIG_6A": "http://verjolab.usp.br:8000/static/Fig6A/" + gene_id + ".png",
-            "URL_FIG_S5": "http://verjolab.usp.br:8000/static/FigS5/" + gene_id + ".png",
+            'URL_FIG_7A': "https://verjo101.butantan.gov.br/users/smLincDatabase/static/Fig7A_S3/" + gene_id + ".png",
+            "URL_FIG_6A": "https://verjo101.butantan.gov.br/users/smLincDatabase/static/Fig6A/" + gene_id + ".png",
+            "URL_FIG_S5": "https://verjo101.butantan.gov.br/users/smLincDatabase/static/FigS5/" + gene_id + ".png",
     }
     columns_fcs = ["Gene ID", "Cerc", "3S", "24S", "Male", "Female"]
     columns_pccs = ["Compared Gene", "Gene", "Pearson Correlation Value", "p-value", "B.-H. adjusted p-value"]
