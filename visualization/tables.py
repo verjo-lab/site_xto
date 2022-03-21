@@ -43,4 +43,3 @@ class ClusterMatrixTable(Table):
 
     class Meta:
         model = ClusterMatrix
-        ajax = True

@@ -1680,6 +1680,7 @@ ul li a {
                svgCluster.setAttribute("class", "cluster-on");
             }
             else if($(this).prop("checked") == false){
+               svgCluster = document.getElementById($(this).prop("name"));
                svgCluster.removeAttribute("class");
             }
         });

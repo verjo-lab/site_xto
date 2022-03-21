@@ -26,7 +26,7 @@ class Command(BaseCommand):
             yield item
 
     def handle(self, *args, **options):
-        if ClusterSMPSmlinc.objects.count > 0:
+        if ClusterSMPSmlinc.objects.count() > 0:
             return
         
         for cluster_item in tqdm(self._get_smps()):

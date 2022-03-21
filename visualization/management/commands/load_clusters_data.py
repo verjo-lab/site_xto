@@ -22,7 +22,7 @@ class Command(BaseCommand):
         base = os.path.dirname(os.path.abspath('__file__'))
         full_path = "{}/visualization/management/commands/schistosoma_mansoni_genes_enriched_in_clusters_sep.tsv".format(base)
         df = pd.read_csv(full_path, sep='\t')
-        df["transcripts_ids"] = df["transcripts_ids"].apply(lambda x: Smp.objects.filter(smp=x).first())
+        df["transcripts_ids"] = df["transcripts_ids"].apply(lambda x: Smp.objects.get_or_create(smp=x)[0])
         df = df.rename(columns={
             "transcripts_ids": "transcript_id",
             "Adjust P-value": "adjusted_p_value",
@@ -32,12 +32,11 @@ class Command(BaseCommand):
         })
         df["cluster"] = df["cluster"].apply(lambda x: x.replace(" ", "-"))
         for item in df.to_dict('records'):
-            self.items.append(item)
+            yield item
 
     def handle(self, *args, **options):
         if ClusterMatrix.objects.count() > 0:
             return
 
-        self._get_smps()
-        for cluster_item in tqdm(self.items):
+        for cluster_item in tqdm(self._get_smps()):
             ClusterMatrix.objects.get_or_create(**cluster_item)
