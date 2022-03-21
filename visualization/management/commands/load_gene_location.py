@@ -30,6 +30,9 @@ class Command(BaseCommand):
 
 
     def handle(self, *args, **options):
+        if GeneLocation.objects.count() > 0:
+            return
+            
         gen_locs = self._get_genomic_locs()
         print("Inserção no banco")
         for gen_loc in tqdm(gen_locs):

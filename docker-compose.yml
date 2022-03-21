@@ -1,23 +1,31 @@
 version: '3.3'
 services:
-
+  db:
+    image: postgres:alpine
+    restart: always
+    ports:
+      - '7432:7432'
+    environment:
+      POSTGRES_USER: schisto
+      POSTGRES_PASSWORD: schisto
+      POSTGRES_DB: schisto
+      PGPORT: 7432
+      POSTGRES_PORT: 7432
+    volumes:
+      - ./data/db2:/var/lib/postgresql/data
+    healthcheck:
+      test: "pg_isready --username=schisto && psql --username=schisto --list"
+      timeout: 10s
+      retries: 4
   web:
     build: .
-    command: python manage.py runserver 0.0.0.0:8000
+    command: make run
     volumes:
       - .:/code
     ports:
       - '8000:8000'
     depends_on:
-     - db
-
-  db:
-    image: postgres:9.5.6-alpine
-    restart: always
-    ports:
-      - '5432:5432'
+      db:
+        condition: service_healthy
     environment:
-      POSTGRES_USER: vmesel
-      POSTGRES_PASSWORD: vmesel
-      POSTGRES_DB: banco
-
+      DATABASE_URL: postgres://schisto:schisto@db:7432/schisto

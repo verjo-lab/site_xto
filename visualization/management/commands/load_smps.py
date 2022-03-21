@@ -22,6 +22,9 @@ class Command(BaseCommand):
 
 
     def handle(self, *args, **options):
+        if Smp.objects.count() > 0:
+            return
+            
         smps = self._get_smps()
         print("Inserção no banco")
         for smp in tqdm(smps):
