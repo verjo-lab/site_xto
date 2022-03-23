@@ -18,6 +18,11 @@
   left: 0;
   opacity: 1;
 }
+
+#smlincexpression_filter{
+   display: none;
+}
+
 </style>
 <div class="col-md-12">
   <h1>{{ SMP }} Data</h1>
@@ -29,6 +34,7 @@
           <td>Matrix Name</td>
           <td>Gene Type</td>
           <td>Is Detected</td>
+          <td>Description</td>
         </tr>
         {% for transcript in transcripts %}
         <tr>
@@ -36,6 +42,7 @@
           <td>{{ transcript.matrix_name }}</td>
           <td>{{ transcript.gene_type }}</td>
           <td>{{ transcript.is_detected }}</td>
+          <td>{{ transcript.description }}</td>
         </tr>
         {% endfor %}
       </table>
@@ -44,7 +51,11 @@
       <div class="col-md-6">
         <div class="panel-heading">
           <h3 class="panel-title">
-              Cluster Overlay: All
+              Cluster Overlay: All<span class="download">
+               <a href="{{URL_FIG_ALL}}" download>
+                   <i class="fa fa-download"></i>
+               </a>
+           </span>
           </h3>
         </div>
          <div class="panel-body">
@@ -1621,7 +1632,11 @@
       <div class="col-md-6">
          <div class="panel-heading">
             <h3 class="panel-title">
-            Cluster Overlay: Male
+            Cluster Overlay: Male <span class="download">
+               <a href="{{URL_FIG_MALE}}" download>
+                   <i class="fa fa-download"></i>
+               </a>
+           </span>
             </h3>
          </div>
          <center>
@@ -3198,7 +3213,11 @@
       <div class="col-md-6">
         <div class="panel-heading">
           <h3 class="panel-title">
-            Cluster Overlay: Female
+            Cluster Overlay: Female<span class="download">
+               <a href="{{URL_FIG_FEMALE}}" download>
+                   <i class="fa fa-download"></i>
+               </a>
+           </span>
           </h3>
         </div>
          <div class="panel-body">
@@ -4775,7 +4794,11 @@
       <div class="col-md-6">
          <div class="panel-heading">
             <h3 class="panel-title">
-               Cluster Overlay: Immature Female
+               Cluster Overlay: Immature Female<span class="download">
+                  <a href="{{URL_FIG_IM}}" download>
+                      <i class="fa fa-download"></i>
+                  </a>
+              </span>
             </h3>
          </div>
          <center>

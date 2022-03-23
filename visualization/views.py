@@ -25,26 +25,28 @@ def lncrna_cluster_search(request):
     table = SmLincExpression
     return render(request, "schisto_cyte.html", {
         'table': table,
-        'page_title': "Schistosoma mansoni Cyte Cluster"
+        'page_title': "<i>Schistosoma mansoni</i> Cyte Cluster",
+        "home_link": "/clusters/"
     })
 
 def lncrnas_cluster_view(request, matrix_name):
     cluster_smp_smlinc_obj = ClusterSMPSmlinc.objects.filter(matrix_name=matrix_name)
 
     return render(request, "smlinc_cluster.html", context={
-        "page_title": "{} - Clusters".format(matrix_name),
+        "page_title": "{} in the Clusters".format(matrix_name),
         "SMP": matrix_name,
         "URL_FIG_ALL": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + matrix_name + "_all.png",
         "URL_FIG_FEMALE": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + matrix_name + "_female.png",
         "URL_FIG_IM": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + matrix_name + "_IM.png",
         "URL_FIG_MALE": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + matrix_name + "_male.png",
-        "transcripts": cluster_smp_smlinc_obj
+        "transcripts": cluster_smp_smlinc_obj,
+        "home_link": "/clusters/"
     })
 
 
 def clusters_view(request):
     return render(request, 'clusters.html', {
-        
+        "home_link": "/clusters/"
     })
 
 
@@ -53,7 +55,8 @@ def cluster_view(request, cluster):
     table = ClusterMatrixTable(ClusterMatrix.objects.filter(cluster=cluster))
     return render(request, "schisto_cyte.html", {
         'table': table,
-        'page_title': "{} Cluster Data".format(cluster)
+        'page_title': "{} Cluster Data".format(cluster),
+        "home_link": "/clusters/"
     })
 
 
@@ -211,8 +214,5 @@ def smp_search(request):
         search_fields = ['^smp']
         f = search_filter(search_fields, smp)
         filtered = Smp.objects.filter(f)
-        for item in filtered:
-            print(dir(item))
-            break
         return render(request, 'smp_search.html', {"qs": filtered, "s": smp})
     return redirect('/')

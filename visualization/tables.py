@@ -1,11 +1,26 @@
 from django.urls import reverse_lazy
+from django.utils.safestring import mark_safe
 
 from visualization.models import GeneLocation, ClusterSMPSmlinc, ClusterMatrix
 from table import Table
 from table.columns import Column, LinkColumn, Link
-
+from table.tables import BaseTable, TableWidgets, TableMetaClass
 from table.utils import A
 
+
+class ModifiedTableWidgets(TableWidgets):
+    def render_dom(self):
+        dom = "<'row'" + self.search_box.dom + ">"
+        return mark_safe(dom)
+
+
+class ModifiedBaseTable(BaseTable):
+    def __init__(self):
+        super().__init__()
+        self.addons = ModifiedTableWidgets(self)
+
+
+ModifiedTable = TableMetaClass(str('ModifiedTable'), (ModifiedBaseTable,), {})
 
 class GeneLocationTable(Table):
     gene_id = LinkColumn(field='gene_id', header="SmLINC", links=[Link(text=A('gene_id'), viewname="sm_view", kwargs={"gene_id":A('gene_id')})])
@@ -19,7 +34,7 @@ class GeneLocationTable(Table):
         search_placeholder = "Search for your SmLINC"
 
 
-class SmLincExpression(Table):
+class SmLincExpression(ModifiedTable):
     matrix_name = LinkColumn(field='matrix_name', header="Gene ID", links=[Link(text=A('matrix_name'), viewname="lncrnas_cluster_view", kwargs={"matrix_name":A('matrix_name')})])
     transcripts_id = Column(field='transcripts_id', header="Transcript ID")
     gene_type = Column(field='gene_type', header="Gene Type")
