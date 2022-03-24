@@ -31,16 +31,22 @@ def lncrna_cluster_search(request):
 
 def lncrnas_cluster_view(request, matrix_name):
     cluster_smp_smlinc_obj = ClusterSMPSmlinc.objects.filter(matrix_name=matrix_name)
+    
+    render_images = True
+    
+    if not all([cluster.is_detected for cluster in cluster_smp_smlinc_obj]):
+        render_images = False
 
     return render(request, "smlinc_cluster.html", context={
         "page_title": "{} in the Clusters".format(matrix_name),
         "SMP": matrix_name,
-        "URL_FIG_ALL": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + matrix_name + "_all.png",
-        "URL_FIG_FEMALE": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + matrix_name + "_female.png",
-        "URL_FIG_IM": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + matrix_name + "_IM.png",
-        "URL_FIG_MALE": "https://verjo101.butantan.gov.br/users/scRNA/teste/" + matrix_name + "_male.png",
+        "URL_FIG_ALL": "https://verjo101.butantan.gov.br/users/scRNA/images/" + matrix_name + "_all.png",
+        "URL_FIG_FEMALE": "https://verjo101.butantan.gov.br/users/scRNA/images/" + matrix_name + "_female.png",
+        "URL_FIG_IM": "https://verjo101.butantan.gov.br/users/scRNA/images/" + matrix_name + "_IM.png",
+        "URL_FIG_MALE": "https://verjo101.butantan.gov.br/users/scRNA/images/" + matrix_name + "_male.png",
         "transcripts": cluster_smp_smlinc_obj,
-        "home_link": "/clusters/"
+        "home_link": "/clusters/",
+        "render_images": render_images,
     })
 
 

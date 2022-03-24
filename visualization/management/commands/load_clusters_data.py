@@ -35,8 +35,8 @@ class Command(BaseCommand):
             yield item
 
     def handle(self, *args, **options):
-        if ClusterMatrix.objects.count() > 0:
-            return
+        # if ClusterMatrix.objects.count() > 0:
+        #     return
 
         for cluster_item in tqdm(self._get_smps()):
             ClusterMatrix.objects.get_or_create(**cluster_item)

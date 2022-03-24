@@ -11,12 +11,14 @@ from table.utils import A
 class ModifiedTableWidgets(TableWidgets):
     def render_dom(self):
         dom = "<'row'" + self.search_box.dom + ">"
+        dom += "rt"
+        dom += "<'row'" + ''.join([self.info_label.dom, self.pagination.dom, self.length_menu.dom]) + ">"
         return mark_safe(dom)
 
 
 class ModifiedBaseTable(BaseTable):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, data=None):
+        super().__init__(data=data)
         self.addons = ModifiedTableWidgets(self)
 
 
@@ -48,7 +50,7 @@ class SmLincExpression(ModifiedTable):
 
 from django.urls import reverse_lazy
 
-class ClusterMatrixTable(Table):
+class ClusterMatrixTable(ModifiedTable):
     matrix_name = LinkColumn(field='matrix_name', header="Matrix Name", links=[Link(text=A('matrix_name'), viewname="lncrnas_cluster_view", kwargs={"matrix_name": A('matrix_name')})])
     transcript_id = Column(field='transcript_id', header="Transcript ID")
     gene = Column(field='gene', header="Gene")

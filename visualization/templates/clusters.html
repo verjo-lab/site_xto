@@ -36,7 +36,6 @@ ul li a {
   <div class="row">
    <div class="col-md-3">
       <h3>Select the clusters</h3>
-      <p>Hover the mouse over the image to see the clusters.</p>
       <hr/>
       <ul>
          <li><input type="checkbox" name="neuron-1" /><a href="{% url 'cluster_view' 'neuron-1' %}">Neuron 1</a></li>
@@ -110,12 +109,13 @@ ul li a {
       </ul>
    </div>
    <div class="col-md-9">
+      <p>Hover the mouse over the image to see the clusters.</p>
          <div class="img-overlay-wrap">
             <img src="{% static 'umap_mapped_cells_no_label_web.png' %}" height="608">
             <svg
-                        width="742.10992"
-                        height="609.91907"
-                        viewBox="25 110 194 74"
+                        width="608"
+                        height="608"
+                        viewBox="30 110 150 75"
                         version="1.1"
                         inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
                         sodipodi:docname="overlay-resized.svg"
