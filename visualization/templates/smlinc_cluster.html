@@ -39,7 +39,7 @@
         {% for transcript in transcripts %}
         <tr>
           <td>{{ transcript.transcripts_id }}</td>
-          <td>{{ transcript.matrix_name }}</td>
+          <td><a href="/cluster_view/enrichment/{{ transcript.matrix_name_slug }}">{{transcript.matrix_name}}</a></td>
           <td>{{ transcript.gene_type }}</td>
           <td>{{ transcript.is_detected }}</td>
           <td>{{ transcript.description }}</td>

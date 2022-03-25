@@ -2,6 +2,7 @@ import os
 from django.core.management.base import BaseCommand
 from django.db import IntegrityError
 from visualization.models import ClusterMatrixDefinitive
+from django.template.defaultfilters import slugify
 import pandas as pd
 from tqdm import tqdm
 
@@ -24,6 +25,7 @@ class Command(BaseCommand):
         	"gene_id": "gene_id",
             "gene_type": "gene_type"
         })
+        df["matrix_name_slug"] = df["matrix_name"].apply(lambda x: slugify(x))
         for item in df.to_dict('records'):
             yield item
 

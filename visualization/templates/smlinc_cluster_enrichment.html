@@ -39,13 +39,13 @@
       </tr>
       {% for transcript in transcripts %}
       <tr>
-         <td>{{ transcript.cluster_matrix.cluster }}</td>
+         <td>{{ transcript.cluster }}</td>
          <td>{{ transcript.matrix_name }}</td>
          <td>{{ transcript.transcripts_id }}</td>
          <td>{{ transcript.gene_id }}</td>
-         <td>{{ transcript.cluster_matrix.enrichment }}</td>
-         <td>{{ transcript.cluster_matrix.adjusted_p_value }}</td>
-         <td>{{ transcript.cluster_matrix.description }}</td>
+         <td>{{ transcript.enrichment }}</td>
+         <td>{{ transcript.adjusted_p_value }}</td>
+         <td>{{ transcript.description }}</td>
       </tr>
       {% endfor %}
    </table>

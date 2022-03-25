@@ -44,6 +44,7 @@ class ClusterSMPSmlinc(models.Model):
 class ClusterMatrixDefinitive(models.Model):
     cluster = models.CharField(max_length=2000, null=True, blank=True)
     matrix_name = models.CharField(max_length=2000, null=True, blank=True)
+    matrix_name_slug = models.CharField(max_length=2000, null=True, blank=True)
     transcripts_id = models.CharField(max_length=2000, null=True, blank=True)
     gene_id = models.CharField(max_length=2000, null=True, blank=True)
     gene_type = models.CharField(max_length=2000, null=True, blank=True)

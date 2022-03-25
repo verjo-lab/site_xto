@@ -54,7 +54,7 @@ def lncrnas_cluster_view(request, matrix_name):
 
 
 def lncrnas_cluster_enrichment_view(request, matrix_name):
-    cluster_smp_smlinc_obj = ClusterMatrixDefinitive.objects.filter(matrix_name=matrix_name)
+    cluster_smp_smlinc_obj = ClusterMatrixDefinitive.objects.filter(matrix_name_slug=matrix_name)
     return render(request, "smlinc_cluster_enrichment.html", context={
         "transcripts": cluster_smp_smlinc_obj,
     })
