@@ -34,7 +34,7 @@
             {% else %}
             <li><a href="/" style="color: #f2fa02;">Home</a></li>
             {% endif %}
-            <li><a href="/" style="color: #f2fa02;">Atlas</a></li>
+            <li><a href="/atlas/" style="color: #f2fa02;">Atlas</a></li>
             <li><a href="/cyto_view/" style="color: #f2fa02;">Atlas Cytoscape Networks</a></li>
             <li><a href="/datasets/" style="color: #f2fa02;">Datasets Used</a></li>
             <li><a href="/clusters/" style="color: #f2fa02;">Single-cell Cluster Data</a></li>
@@ -54,22 +54,6 @@
       <a href="/">
           <img src="{% static 'logo_db.png' %}" alt=""  width="450" height="200" style="display:block;margin:auto;margin-bottom:-40px;">
       </a>
-      <hr/>
-      <p id="atlas-paper-info">
-        This site contains the web resource described in the paper "Atlas of <i>Schistosoma mansoni</i> long non-coding RNAs and their expression correlation to protein-coding genes" (2018) by Elton J. R. Vasconcelos, Vinícius C. Mesel, Lucas F. daSilva, David S. Pires, Guilherme M. Lavezzo, Adriana S. A. Pereira, Murilo S. Amaral and Sergio Verjovski-Almeida, <i>Database</i>, Volume 2018: bay068, <a href="https://doi.org/10.1093/database/bay068">https://doi.org/10.1093/database/bay068</a>.
-      </p>
-      <p id="atlas-paper-info">
-        Based on data from Vasconcelos, EJR et al., The <i>Schistosoma mansoni</i> genome encodes thousands of long noncoding RNAs predicted to be functional at different parasite life-cycle stages. <a href="https://www.nature.com/articles/s41598-017-10853-6" target="_blank"><i>Scientific Reports</i> 7: 10508, 2017.</a>
-      </p>
-      <p><a href="/">Click here to access the Atlas</a></p>
-      <hr />
-      <p id="atlas-paper-info">
-        This site contains web resources described in the manuscript submitted "".
-      </p>
-      <p id="atlas-paper-info">
-        Based on data annotation of lncRNAs from Amaral, MS et al., Long non-coding RNA levels can be modulated by 5-Azacytidine in Schistosoma mansoni. Scientific Reports 10:21565 (2020). doi:10.1038/s41598-020-78669-5 (link para o paper) and Maciel, LF et al., Weighted gene co-expression analyses point to long non-coding RNA hub genes at different Schistosoma mansoni life-cycle stages. <i>Front. Genet.</i> 10:823 (2019). <a href="https://www.frontiersin.org/articles/10.3389/fgene.2019.00823/full">doi: 10.3389/fgene.2019.00823</a>.
-      </p>
-      <p><a href="/cluster/">Click here to access cluster scRNA-seq data</a></p>
       <hr/>
         {% block container-central %}
         {% endblock container-central %}

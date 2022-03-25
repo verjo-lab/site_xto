@@ -11,7 +11,12 @@ from table.views import FeedDataView
 
 def index(request):
     table = GeneLocationTable
-    return render(request, "index.html", {'table': table})
+    return render(request, "index.html")
+
+
+def atlas_index(request):
+    table = GeneLocationTable
+    return render(request, "atlas_index.html", {'table': table})
 
 
 class SmLincExpressionDataFeed(FeedDataView):
@@ -26,7 +31,6 @@ def lncrna_cluster_search(request):
     return render(request, "schisto_cyte.html", {
         'table': table,
         'page_title': "<i>Schistosoma mansoni</i> Cyte Cluster",
-        "home_link": "/clusters/"
     })
 
 def lncrnas_cluster_view(request, matrix_name):
@@ -45,16 +49,18 @@ def lncrnas_cluster_view(request, matrix_name):
         "URL_FIG_IM": "https://verjo101.butantan.gov.br/users/scRNA/images/" + matrix_name + "_IM.png",
         "URL_FIG_MALE": "https://verjo101.butantan.gov.br/users/scRNA/images/" + matrix_name + "_male.png",
         "transcripts": cluster_smp_smlinc_obj,
-        "home_link": "/clusters/",
         "render_images": render_images,
     })
 
 
-def clusters_view(request):
-    return render(request, 'clusters.html', {
-        "home_link": "/clusters/"
+def lncrnas_cluster_enrichment_view(request, matrix_name):
+    cluster_smp_smlinc_obj = ClusterSMPSmlinc.objects.filter(matrix_name=matrix_name)
+    return render(request, "smlinc_cluster_enrichment.html", context={
+        "transcripts": cluster_smp_smlinc_obj,
     })
 
+def clusters_view(request):
+    return render(request, 'clusters.html', {})
 
 
 def cluster_view(request, cluster):
@@ -62,7 +68,6 @@ def cluster_view(request, cluster):
     return render(request, "schisto_cyte.html", {
         'table': table,
         'page_title': "{} Cluster Data".format(cluster),
-        "home_link": "/clusters/"
     })
 
 

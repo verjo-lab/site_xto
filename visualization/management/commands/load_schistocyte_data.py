@@ -22,6 +22,9 @@ class Command(BaseCommand):
         full_path = "{}/visualization/management/commands/smps_smlincs.tsv".format(base)
         df = pd.read_csv(full_path, sep='\t')
         df["gene_id"] = df["gene_id"].apply(lambda x: Smp.objects.get_or_create(smp=x)[0])
+        df = df.rename(columns={
+            "Description": "description",
+        })
         for item in df.to_dict('records'):
             yield item
 

@@ -41,6 +41,7 @@ class SmLincExpression(ModifiedTable):
     transcripts_id = Column(field='transcripts_id', header="Transcript ID")
     gene_type = Column(field='gene_type', header="Gene Type")
     is_detected = Column(field='is_detected', header="Is Detected")
+    description = Column(field='description', header="Description")
 
     class Meta:
         model = ClusterSMPSmlinc
