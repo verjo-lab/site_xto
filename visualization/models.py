@@ -39,3 +39,15 @@ class ClusterSMPSmlinc(models.Model):
     is_detected = models.BooleanField(default = False)
     description = models.CharField(max_length=2000, default="", blank=True)
     cluster_matrix = models.ForeignKey(ClusterMatrix, blank=True, null=True, on_delete=models.DO_NOTHING)
+
+
+class ClusterMatrixDefinitive(models.Model):
+    cluster = models.CharField(max_length=2000, null=True, blank=True)
+    matrix_name = models.CharField(max_length=2000, null=True, blank=True)
+    transcripts_id = models.CharField(max_length=2000, null=True, blank=True)
+    gene_id = models.CharField(max_length=2000, null=True, blank=True)
+    gene_type = models.CharField(max_length=2000, null=True, blank=True)
+    is_detected = models.CharField(max_length=2000, null=True, blank=True)
+    enrichment = models.CharField(max_length=2000, null=True, blank=True)
+    adjusted_p_value = models.CharField(max_length=2000, null=True, blank=True)
+    description = models.CharField(max_length=2000, null=True, blank=True)

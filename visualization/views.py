@@ -34,7 +34,7 @@ def lncrna_cluster_search(request):
     })
 
 def lncrnas_cluster_view(request, matrix_name):
-    cluster_smp_smlinc_obj = ClusterSMPSmlinc.objects.filter(matrix_name=matrix_name)
+    cluster_smp_smlinc_obj = ClusterMatrixDefinitive.objects.filter(matrix_name=matrix_name)
     
     render_images = True
     
@@ -54,7 +54,7 @@ def lncrnas_cluster_view(request, matrix_name):
 
 
 def lncrnas_cluster_enrichment_view(request, matrix_name):
-    cluster_smp_smlinc_obj = ClusterSMPSmlinc.objects.filter(matrix_name=matrix_name)
+    cluster_smp_smlinc_obj = ClusterMatrixDefinitive.objects.filter(matrix_name=matrix_name)
     return render(request, "smlinc_cluster_enrichment.html", context={
         "transcripts": cluster_smp_smlinc_obj,
     })
@@ -64,7 +64,7 @@ def clusters_view(request):
 
 
 def cluster_view(request, cluster):
-    table = ClusterMatrixTable(ClusterMatrix.objects.filter(cluster=cluster))
+    table = ClusterMatrixTable(ClusterMatrixDefinitive.objects.filter(cluster=cluster))
     return render(request, "schisto_cyte.html", {
         'table': table,
         'page_title': "{} Cluster Data".format(cluster),

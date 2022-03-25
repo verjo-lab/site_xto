@@ -1,7 +1,7 @@
 from django.urls import reverse_lazy
 from django.utils.safestring import mark_safe
 
-from visualization.models import GeneLocation, ClusterSMPSmlinc, ClusterMatrix
+from visualization.models import GeneLocation, ClusterMatrixDefinitive
 from table import Table
 from table.columns import Column, LinkColumn, Link
 from table.tables import BaseTable, TableWidgets, TableMetaClass
@@ -44,7 +44,7 @@ class SmLincExpression(ModifiedTable):
     description = Column(field='description', header="Description")
 
     class Meta:
-        model = ClusterSMPSmlinc
+        model = ClusterMatrixDefinitive
         ajax = True
         ajax_source = reverse_lazy('smlinc_data_feed')
 
@@ -60,4 +60,4 @@ class ClusterMatrixTable(ModifiedTable):
     description = Column(field='description', header="Description")
 
     class Meta:
-        model = ClusterMatrix
+        model = ClusterMatrixDefinitive
