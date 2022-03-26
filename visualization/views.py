@@ -64,7 +64,9 @@ def clusters_view(request):
 
 
 def cluster_view(request, cluster):
-    table = ClusterMatrixTable(ClusterMatrixDefinitive.objects.filter(cluster=cluster))
+    cluster_objs = ClusterMatrixDefinitive.objects.filter(cluster_slug=cluster)
+    cluster = cluster_objs.first().cluster
+    table = ClusterMatrixTable(cluster_objs)
     return render(request, "schisto_cyte.html", {
         'table': table,
         'page_title': "{} Cluster Data".format(cluster),

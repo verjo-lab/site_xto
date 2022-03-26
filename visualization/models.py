@@ -52,3 +52,4 @@ class ClusterMatrixDefinitive(models.Model):
     enrichment = models.CharField(max_length=2000, null=True, blank=True)
     adjusted_p_value = models.CharField(max_length=2000, null=True, blank=True)
     description = models.CharField(max_length=2000, null=True, blank=True)
+    cluster_slug = models.CharField(max_length=2000, null=True, blank=True)

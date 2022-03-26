@@ -26,6 +26,8 @@ class Command(BaseCommand):
             "gene_type": "gene_type"
         })
         df["matrix_name_slug"] = df["matrix_name"].apply(lambda x: slugify(x))
+        df["cluster_slug"] = df["cluster"].apply(lambda x: slugify(x))
+        # for item in df.head(1000).to_dict('records'):
         for item in df.to_dict('records'):
             yield item
 
