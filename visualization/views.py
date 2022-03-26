@@ -34,11 +34,11 @@ def lncrna_cluster_search(request):
     })
 
 def lncrnas_cluster_view(request, matrix_name):
-    cluster_smp_smlinc_obj = ClusterMatrixDefinitive.objects.filter(matrix_name=matrix_name)
+    cluster_smp_smlinc_obj = ClusterMatrixDefinitive.objects.filter(matrix_name=matrix_name).values("transcripts_id", "matrix_name_slug", "gene_type", "is_detected", "description", "matrix_name").distinct()
     
     render_images = True
     
-    if not all([cluster.is_detected for cluster in cluster_smp_smlinc_obj]):
+    if not all([cluster["is_detected"] for cluster in cluster_smp_smlinc_obj]):
         render_images = False
 
     return render(request, "smlinc_cluster.html", context={
