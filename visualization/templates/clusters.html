@@ -2,6 +2,7 @@
 {% load static %}
 
 {% block container-central %}
+<script src="extensions/toolbar/bootstrap-table-toolbar.js"></script>
 <style>
 .img-overlay-wrap {
   position: relative;
@@ -19,13 +20,17 @@
    opacity: 1 !important;
 }
 
-ul {
+#clusters {
+   border: 1px solid;
    list-style: none;
+   height: 500px;
+   overflow: none;
+   overflow-y:scroll;
 }
-ul li{
-   line-height: 40px;;
+#clusters li{
+   line-height: 40px;
 }
-ul li a {
+#clusters li a {
    padding-left: 5px;
 }
 </style>
@@ -37,7 +42,7 @@ ul li a {
    <div class="col-md-3">
       <h3>Select the clusters</h3>
       <hr/>
-      <ul>
+      <ul id="clusters">
          <li><input type="checkbox" name="neuron-1" /><a href="{% url 'cluster_view' 'neuron-1' %}">Neuron 1</a></li>
          <li><input type="checkbox" name="neuron-2" /><a href="{% url 'cluster_view' 'neuron-2' %}">Neuron 2</a></li>
          <li><input type="checkbox" name="neuron-3" /><a href="{% url 'cluster_view' 'neuron-3' %}">Neuron 3</a></li>
@@ -80,7 +85,7 @@ ul li a {
          <li><input type="checkbox" name="s1" /><a href="{% url 'cluster_view' 's1' %}">S1</a></li>
          <li><input type="checkbox" name="gametes" /><a href="{% url 'cluster_view' 'female-gametes' %}">Female Gametes</a></li>
          <li><input type="checkbox" name="neoblast" /><a href="{% url 'cluster_view' 'neoblast' %}">Neoblast</a></li>
-         <li><input type="checkbox" name="dmrt1+-neoblasts" /><a href="{% url 'cluster_view' 'dmrt1-neoblasts' %}">DMRT1+ neoblasts</a></li>
+         <li><input type="checkbox" name="dmrt1-neoblasts" /><a href="{% url 'cluster_view' 'dmrt1-neoblasts' %}">DMRT1+ neoblasts</a></li>
          <li><input type="checkbox" name="eled-neoblasts" /><a href="{% url 'cluster_view' 'eled-neoblasts' %}">ELED+ neoblasts</a></li>
          <li><input type="checkbox" name="gsc-progeny" /><a href="{% url 'cluster_view' 'gsc-progeny' %}">gsc progeny</a></li>
          <li><input type="checkbox" name="male-gametes" /><a href="{% url 'cluster_view' 'male-gametes' %}">male gametes</a></li>
@@ -88,11 +93,11 @@ ul li a {
          <li><input type="checkbox" name="unknown" /><a href="{% url 'cluster_view' 'unknown' %}">unknown</a></li>
          <li><input type="checkbox" name="neoblast-progeny" /><a href="{% url 'cluster_view' 'neoblast-progeny' %}">neoblast progeny</a></li>
          <li><input type="checkbox" name="mehlis-gland" /><a href="{% url 'cluster_view' 'mehlis-gland' %}">mehlis gland</a></li>
-         <!-- <li><input type="checkbox" name="hes2+" /><a href="{% url 'cluster_view' 'hes2+' %}">hes2+</a></li> -->
+         <li><input type="checkbox" name="hes2" /><a href="{% url 'cluster_view' 'hes2' %}">hes2+</a></li>
          <li><input type="checkbox" name="egc+" /><a href="{% url 'cluster_view' 'egc' %}">egc+</a></li>
          <li><input type="checkbox" name="mature-vitellocytes" /><a href="{% url 'cluster_view' 'mature-vitellocytes' %}">mature vitellocytes</a></li>
          <li><input type="checkbox" name="late-vitellocytes" /><a href="{% url 'cluster_view' 'late-vitellocytes' %}">late vitellocytes</a></li>
-         <li><input type="checkbox" name="prom2+" /><a href="{% url 'cluster_view' 'prom2' %}">prom2+</a></li>
+         <li><input type="checkbox" name="prom2" /><a href="{% url 'cluster_view' 'prom2' %}">prom2+</a></li>
          <li><input type="checkbox" name="gut" /><a href="{% url 'cluster_view' 'gut' %}">gut</a></li>
          <li><input type="checkbox" name="early-vitellocytes" /><a href="{% url 'cluster_view' 'early-vitellocytes' %}">early vitellocytes</a></li>
          <li><input type="checkbox" name="muscle-8" /><a href="{% url 'cluster_view' 'muscle-8' %}">muscle 8</a></li>
@@ -101,21 +106,21 @@ ul li a {
          <li><input type="checkbox" name="parenchyma-1" /><a href="{% url 'cluster_view' 'parenchyma-1' %}">parenchyma 1</a></li>
          <li><input type="checkbox" name="parenchyma-2" /><a href="{% url 'cluster_view' 'parenchyma-2' %}">parenchyma 2</a></li>
          <li><input type="checkbox" name="tegument-1" /><a href="{% url 'cluster_view' 'tegument-1' %}">tegument 1</a></li>
-         <li><input type="checkbox" name="sm13+" /><a href="{% url 'cluster_view' 'sm13' %}">sm13+</a></li>
-         <li><input type="checkbox" name="early-tsp-2+" /><a href="{% url 'cluster_view' 'early-tsp-2' %}">early-tsp 2+</a></li>
+         <li><input type="checkbox" name="sm13" /><a href="{% url 'cluster_view' 'sm13' %}">sm13+</a></li>
+         <li><input type="checkbox" name="early-tsp-2" /><a href="{% url 'cluster_view' 'early-tsp-2' %}">early-tsp 2+</a></li>
          <li><input type="checkbox" name="meg-1" /><a href="{% url 'cluster_view' 'meg-1' %}">meg 1</a></li>
-         <li><input type="checkbox" name="zfp-1-1+" /><a href="{% url 'cluster_view' 'zfp-1-1' %}">zfp-1 1+</a></li>
+         <li><input type="checkbox" name="zfp-1-1" /><a href="{% url 'cluster_view' 'zfp-1-1' %}">zfp-1 1+</a></li>
          <li><input type="checkbox" name="oesophageal-gland" /><a href="{% url 'cluster_view' 'oesophageal-gland' %}">oesophageal gland</a></li>
       </ul>
    </div>
    <div class="col-md-9">
-      <h4 style="text-align: center">Hover the mouse over the image to see the clusters.</h4>
+      <h4 style="text-align: center">Hover the mouse over the image to see the clusters (click to select).</h4>
          <div class="img-overlay-wrap">
             <img src="{% static 'umap_mapped_cells_no_label_web.png' %}" height="608">
             <svg
                         width="608"
                         height="608"
-                        viewBox="30 110 150 75"
+                        viewBox="30 110 152 79"
                         version="1.1"
                         inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
                         sodipodi:docname="overlay-resized.svg"
@@ -548,7 +553,7 @@ ul li a {
                            id="path64756" />
                      </g>
                      <g
-                        id="dmrt1+-neoblasts"
+                        id="dmrt1-neoblasts"
                         style="display:inline">
                         <path
                            style="opacity:0.537445;fill:#00ff00;stroke:#00ff00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -725,7 +730,7 @@ ul li a {
                            id="path88282" />
                      </g>
                      <g
-                        id="hes2+">
+                        id="hes2">
                         <text
                            xml:space="preserve"
                            style="font-size:3.175px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
@@ -817,7 +822,7 @@ ul li a {
                            id="path2047" />
                      </g>
                      <g
-                        id="prom2+">
+                        id="prom2">
                         <path
                            style="opacity:0.570485;fill:#ff00ff;stroke:#ff00ff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                            d="m 98.656816,136.88726 c 1.084503,0.0578 1.625374,-0.0156 2.152784,1.03927 0.1539,0.30781 0.0944,0.46559 0.37117,0.74234 0.10329,0.1033 0.6603,0.20038 0.81657,0.2227 0.43319,0.0619 0.29761,0.14881 0.59387,0.29694 0.17006,0.085 0.89081,-0.15148 0.89081,0.2227 0,0.0247 0,0.0495 0,0.0742 0.0495,0.0247 0.13937,0.0197 0.14847,0.0742 0.0136,0.0814 -0.0413,0.48077 -0.22271,0.51964 -0.17087,0.0366 -1.08262,0.12106 -1.41044,0.0742 -0.20074,-0.0287 -0.2896,-0.19714 -0.51964,-0.2227 -0.14756,-0.0164 -0.30683,0.0533 -0.4454,0 -0.19867,-0.0764 -0.33222,-0.27025 -0.51964,-0.37117 -0.25206,-0.13573 -0.755733,-0.2361 -0.965037,-0.4454 -0.01749,-0.0175 0.01749,-0.0567 0,-0.0742 -0.03259,-0.0326 -0.714084,-0.0475 -0.890807,-0.14847 -0.198075,-0.11318 -0.346424,-0.29693 -0.519636,-0.4454 -0.321681,-0.12372 -0.656775,-0.21704 -0.965042,-0.37117 -0.626776,-0.31339 -1.01905,-0.96366 -1.558911,-1.41044 -1.294432,-1.07126 -0.93126,-0.29334 -2.227017,-1.93008 -0.350139,-0.44228 -0.171135,-1.48156 -0.519636,-2.00432 -0.571582,-0.85737 -0.852406,-0.15739 -1.039275,-1.55891 -0.05685,-0.42636 -0.06371,-1.14508 0.07423,-1.55891 0.135839,-0.40751 1.163926,-1.38662 1.484677,-1.70738 0.544206,-0.5442 0.979684,-1.19629 1.558912,-1.70738 0.416518,-0.36751 1.037336,-0.80595 1.410444,-1.26197 0.07007,-0.0857 0.08708,-0.20486 0.148468,-0.29694 0.227631,-0.34145 0.960318,-0.60488 1.187741,-0.0742 0.08547,0.19944 0.05579,1.02038 0,1.18774 -0.112853,0.33856 -0.425932,0.57592 -0.593871,0.89081 -0.27922,0.52353 -0.21673,0.62277 -0.519636,1.03927 -0.408768,0.56206 -0.903155,1.05689 -1.187741,1.70738 -0.06033,0.1379 -0.04607,0.29755 -0.07423,0.4454 -0.07083,0.37184 -0.164267,0.73953 -0.222703,1.11351 -0.07323,0.46865 -0.358851,1.98552 -0.222702,2.59819 0.116655,0.52494 0.744839,1.48634 1.187744,1.78161 0.09207,0.0614 0.213653,0.0756 0.296934,0.14847 0.206734,0.18089 0.28812,0.43952 0.519636,0.59387 0.424476,0.28298 1.023387,0.26088 1.484678,0.4454 0.14711,0.0589 0.201871,0.24442 0.296936,0.37117 z"
@@ -1485,7 +1490,7 @@ ul li a {
                            id="path107687" />
                      </g>
                      <g
-                        id="sm13+">
+                        id="sm13">
                         <text
                            xml:space="preserve"
                            style="font-size:3.175px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
@@ -1507,7 +1512,7 @@ ul li a {
                            id="path110956" />
                      </g>
                      <g
-                        id="early-tsp-2+">
+                        id="early-tsp-2">
                         <path
                            style="opacity:0.50289;fill:#00ff00;stroke:#00ff00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                            d="m 77.194287,125.58766 c 0.298744,-0.58223 0.746297,-1.62024 1.469433,-1.86128 0.1832,-0.0611 0.672814,0.183 0.783698,0.29388 0.0231,0.0231 -0.0231,0.0749 0,0.098 0.217903,0.21791 0.706488,0.15732 0.979623,0.29389 0.767376,0.38369 1.079627,1.11296 1.567396,1.76332 0.664605,0.88614 1.175549,0.81982 1.175549,1.95925 0,0.16327 0.0396,0.33141 0,0.48981 -0.145147,0.58059 -0.640905,0.69404 -0.88166,1.17555 -0.01461,0.0292 0.0231,0.0749 0,0.098 -0.13834,0.13834 -0.363156,0.12501 -0.489812,0.29389 -0.178224,0.23763 -0.6173,0.99976 -0.685737,1.27351 -0.03168,0.12671 0.03168,0.26513 0,0.39185 -0.101142,0.40457 -0.516276,0.64859 -0.587772,1.07758 -0.04951,0.29706 0.0016,0.98125 0.195924,1.17555 0.550431,0.55043 1.763321,0.49499 1.763321,1.56739 0,0.19593 0.10868,0.42476 0,0.58778 -0.0405,0.0608 -0.144293,0.0463 -0.195924,0.098 -0.230899,0.2309 -0.431408,0.49703 -0.587774,0.7837 -0.22337,0.40951 -0.223888,1.11356 -0.783699,1.27351 -0.602282,0.17208 -1.249061,0.21736 -1.861283,0.29389 -0.514429,0.0643 -1.05297,-0.0643 -1.567397,0 -0.436112,0.0545 -1.203698,0.31769 -1.567397,-0.098 -0.201483,-0.23026 -0.349842,-0.79765 -0.489812,-1.07758 -0.38045,-0.7609 -0.67151,-1.45205 -0.979623,-2.25313 -0.223443,-0.58096 -0.783098,-1.27772 -0.685736,-1.95925 0.08562,-0.59933 0.102568,-1.28732 0.293888,-1.86128 0.232101,-0.6963 0.706298,-1.34044 1.077585,-1.95925 0.084,-0.14 0.242255,-0.23696 0.293886,-0.39185 0.229468,-0.6884 0.556569,-0.90536 0.979625,-1.46943 0.237929,-0.31725 0.09222,-0.38802 0.391848,-0.58778 0.155718,-0.10381 0.41157,-0.16173 0.587774,-0.29388 0.06752,-0.0506 0.20533,-1.07289 0.195924,-1.07759 -0.120422,-0.0602 -0.261233,-0.0653 -0.391848,-0.098 z"
@@ -1556,7 +1561,7 @@ ul li a {
                            id="path118346" />
                      </g>
                      <g
-                        id="zfp-1-1+">
+                        id="zfp-1-1">
                         <path
                            style="opacity:0.526012;fill:#008080;stroke:#008080;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                            d="m 54.075186,149.88231 c 1.795772,0.85188 3.156175,1.69171 4.996077,0.58777 0.480441,-0.28826 0.826212,-0.96391 1.175547,-1.37147 0.523163,-0.61036 1.169643,-1.13105 1.76332,-1.66536 0.397595,-0.35784 0.895237,-0.60135 1.273511,-0.97962 0.349907,-0.34991 0.329134,-0.50635 0.685737,-0.7837 0.812414,-0.63188 0.313198,-0.18792 0.979622,-0.58778 1.517386,-0.91043 -0.267073,0.11274 1.077585,-0.78369 0.268721,-0.17915 2.618496,0.0834 2.93887,0.098 1.222274,0.0556 0.896159,0.0227 1.861283,-0.098 0.416372,-0.0521 0.765693,0.0524 1.175546,0.098 0.541382,0.0601 1.118198,0 1.665359,0 0.613685,0 1.291339,-0.11399 1.861285,0 0.847876,0.16957 1.886982,0.23093 2.644982,0.68573 0.225748,0.13545 -0.205693,0.49958 -0.391851,0.68574 -0.15853,0.15853 -1.104355,-0.14879 -1.37147,-0.19593 -1.285134,-0.22678 -2.626895,-0.0524 -3.918492,-0.19592 -0.524786,-0.0583 -1.053577,-0.22966 -1.567397,-0.29389 -0.628547,-0.0786 -2.66196,-0.0878 -3.232756,0 -0.710158,0.10926 -2.152431,0.78188 -2.742944,1.17555 -0.558998,0.37267 -1.748493,1.71288 -2.057209,2.25313 -0.16913,0.29598 -0.124756,0.68365 -0.293886,0.97963 -0.435361,0.76188 -0.143772,0.0249 -0.685737,0.7837 -0.378317,0.52964 -0.285514,1.26513 -0.783698,1.76332 -0.270716,0.27071 -0.570749,0.37013 -0.88166,0.58777 -0.171292,0.1199 -0.312505,0.28103 -0.489813,0.39185 -0.372988,0.23312 -1.090642,0.26559 -1.469432,0.39185 -0.27708,0.0924 -0.530114,0.24694 -0.783699,0.39185 -0.244784,0.13987 -0.514273,0.35916 -0.685736,0.58777 -0.132035,0.17605 -0.03744,0.60025 -0.293889,0.68574 -0.108614,0.0362 -1.48963,0.11715 -1.665359,0 -0.195924,-0.13062 -0.214638,-0.43272 -0.391848,-0.58778 -0.588817,-0.51521 -1.404837,-0.66985 -2.057206,-1.07758 -0.445331,-0.27833 -1.978954,-1.56721 -1.567397,-2.25313 0.07888,-0.13148 1.825884,-0.41271 2.057206,-0.48981 0.67142,-0.22381 0.523931,-0.22517 1.175549,-0.7837 z"

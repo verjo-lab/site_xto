@@ -4,9 +4,11 @@ from django.utils.safestring import mark_safe
 from visualization.models import GeneLocation, ClusterMatrixDefinitive
 from table import Table
 from table.columns import Column, LinkColumn, Link
-from table.tables import BaseTable, TableWidgets, TableMetaClass
+from table.tables import BaseTable, TableWidgets, TableMetaClass, TableData
 from table.utils import A
 
+
+import copy
 
 class ModifiedTableWidgets(TableWidgets):
     def render_dom(self):
@@ -18,7 +20,8 @@ class ModifiedTableWidgets(TableWidgets):
 
 class ModifiedBaseTable(BaseTable):
     def __init__(self, data=None):
-        super().__init__(data=data)
+        self.data = TableData(data, self)
+        self.columns = copy.deepcopy(self.base_columns)
         self.addons = ModifiedTableWidgets(self)
 
 
