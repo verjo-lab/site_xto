@@ -64,3 +64,16 @@ class ClusterMatrixTable(ModifiedTable):
 
     class Meta:
         model = ClusterMatrixDefinitive
+
+
+class ClusterGeneEnrichmentTable(ModifiedTable):
+    matrix_name = LinkColumn(field='matrix_name', header="Matrix Name", links=[Link(text=A('matrix_name'), viewname="lncrnas_cluster_view", kwargs={"matrix_name": A('matrix_name')})])
+    transcript_id = Column(field='transcripts_id', header="Transcript ID")
+    gene = Column(field='gene_id', header="Gene")
+    enrichment = Column(field='enrichment', header="Enrichment")
+    adjusted_p_value = Column(field='adjusted_p_value', header="Adjusted P value")
+    description = Column(field='description', header="Description")
+    cluster = Column(field='cluster', header="Cluster")
+
+    class Meta:
+        model = ClusterMatrixDefinitive

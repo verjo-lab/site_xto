@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load static %}
+{% load table_tags %}
+
+{% block container-central %}
+<div class="col-md-12">
+  <h1>HES2+ Cluster</h1>
+   <hr>
+   <p>As described in the manuscript, this cell cluster no longer exits in our analysis and now are grouped in <a href="{% url 'cluster_view' 'neoblast-progeny' %}">neoblast progeny cell cluster</a>.</p>
+</div>
+ {% endblock container-central %}

@@ -60,9 +60,12 @@ def lncrnas_cluster_view(request, matrix_name):
 
 
 def lncrnas_cluster_enrichment_view(request, matrix_name):
-    cluster_smp_smlinc_obj = ClusterMatrixDefinitive.objects.filter(matrix_name_slug=matrix_name)
+    cluster_smp_smlinc_obj = ClusterMatrixDefinitive.objects.filter(matrix_name_slug=matrix_name).order_by('adjusted_p_value')
+    table = ClusterGeneEnrichmentTable(cluster_smp_smlinc_obj)
     return render(request, "smlinc_cluster_enrichment.html", context={
         "transcripts": cluster_smp_smlinc_obj,
+        "table": table,
+        "SMP": cluster_smp_smlinc_obj.first().matrix_name
     })
 
 def clusters_view(request):
@@ -70,7 +73,7 @@ def clusters_view(request):
 
 
 def cluster_view(request, cluster):
-    cluster_objs = ClusterMatrixDefinitive.objects.filter(cluster_slug=cluster)
+    cluster_objs = ClusterMatrixDefinitive.objects.filter(cluster_slug=cluster).order_by('adjusted_p_value')
     cluster = cluster_objs.first().cluster
     table = ClusterMatrixTable(cluster_objs)
     return render(request, "schisto_cyte.html", {
@@ -235,3 +238,6 @@ def smp_search(request):
         filtered = Smp.objects.filter(f)
         return render(request, 'smp_search.html', {"qs": filtered, "s": smp})
     return redirect('/')
+
+def hes2_cluster(request):
+    return render(request, 'hes2.html')

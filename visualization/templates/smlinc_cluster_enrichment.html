@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load table_tags %}
 
 {% block container-central %}
 <ol class="breadcrumb">
@@ -25,29 +26,8 @@
 
 </style>
 <div class="col-md-12">
-  <h1>{{ SMP }} Data</h1>
+  <h1>{{ SMP }} - Clusters where gene is enriched</h1>
    <hr>
-   <table class="table table-striped">
-      <tr>
-         <td>Cluster</td>
-         <td>Matrix Name</td>
-         <td>Transcripts</td>
-         <td>Gene</td>
-         <td>Enrichment</td>
-         <td>Adjuster P Value</td>
-         <td>Description</td>
-      </tr>
-      {% for transcript in transcripts %}
-      <tr>
-         <td>{{ transcript.cluster }}</td>
-         <td>{{ transcript.matrix_name }}</td>
-         <td>{{ transcript.transcripts_id }}</td>
-         <td>{{ transcript.gene_id }}</td>
-         <td>{{ transcript.enrichment }}</td>
-         <td>{{ transcript.adjusted_p_value }}</td>
-         <td>{{ transcript.description }}</td>
-      </tr>
-      {% endfor %}
-   </table>
+   {% render_table table %}
 </div>
  {% endblock container-central %}

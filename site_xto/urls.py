@@ -27,6 +27,7 @@ urlpatterns = [
     path('cluster-search/', lncrna_cluster_search, name="lncrna_cluster_search"),
     path('cluster-search/data/', SmLincExpressionDataFeed.as_view(), name="smlinc_data_feed"),
     path('sm_view/<gene_id>', sm_view, name="sm_view"),
+    path('cluster/hes2', hes2_cluster, name="hes2_cluster"),
     path('cluster/<cluster>', cluster_view, name="cluster_view"),
     path('clusters/', clusters_view, name="clusters_view"),
     path('cluster_view/<matrix_name>', lncrnas_cluster_view, name="lncrnas_cluster_view"),
