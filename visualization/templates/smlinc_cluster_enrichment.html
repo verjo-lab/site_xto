@@ -27,7 +27,9 @@
 </style>
 <div class="col-md-12">
   <h1>{{ SMP }} - Clusters where gene is enriched</h1>
-   <hr>
-   {% render_table table %}
+  <hr>
+  <a href="{% url 'lncrnas_cluster_enrichment_download_view' matrix_name_slug %}">Download this table <i class="fa fa-download" id="download-button"></i></a>
+  <hr>
+  {% render_table table %}
 </div>
  {% endblock container-central %}

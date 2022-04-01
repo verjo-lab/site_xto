@@ -1,4 +1,5 @@
 import pandas as pd
+import csv
 
 from django.shortcuts import render, redirect, get_object_or_404
 
@@ -7,6 +8,7 @@ from visualization.models import *
 
 from simple_search import search_filter
 from table.views import FeedDataView
+from django.http import HttpResponse
 
 
 def index(request):
@@ -65,22 +67,70 @@ def lncrnas_cluster_enrichment_view(request, matrix_name):
     return render(request, "smlinc_cluster_enrichment.html", context={
         "transcripts": cluster_smp_smlinc_obj,
         "table": table,
-        "SMP": cluster_smp_smlinc_obj.first().matrix_name
+        "SMP": cluster_smp_smlinc_obj.first().matrix_name,
+        "matrix_name_slug": matrix_name
     })
+
+
+def generate_response_csv(content_qs, model, fields):
+    response = HttpResponse(content_type="text/csv")
+    response["Content-Disposition"] = 'attachment; filename="download.csv"'
+    writer = csv.writer(response)
+    users_grades = [
+        [
+            item.name
+            for item in model._meta.get_fields() if item in fields
+        ]
+    ]
+
+    users_grades += [
+        [
+            getattr(item, attribute) for attribute in fields
+        ] for item in content_qs
+    ]
+    writer.writerows(users_grades)
+    return response
+
+
+def lncrnas_cluster_enrichment_download_view(request, matrix_name):
+    cluster_smp_smlinc_obj = ClusterMatrixDefinitive.objects.filter(matrix_name_slug=matrix_name).order_by('adjusted_p_value')
+    return generate_response_csv(cluster_smp_smlinc_obj, ClusterMatrixDefinitive, [
+        "matrix_name",
+        "transcripts_id",
+        "gene_id",
+        "enrichment",
+        "adjusted_p_value",
+        "description",
+        "cluster",
+    ])
+
 
 def clusters_view(request):
     return render(request, 'clusters.html', {})
 
 
 def cluster_view(request, cluster):
+    cluster_slug = cluster
     cluster_objs = ClusterMatrixDefinitive.objects.filter(cluster_slug=cluster).order_by('adjusted_p_value')
     cluster = cluster_objs.first().cluster
     table = ClusterMatrixTable(cluster_objs)
     return render(request, "schisto_cyte.html", {
         'table': table,
         'page_title': "{} Cluster Data".format(cluster),
+        'cluster_slug': cluster_slug
     })
 
+
+def cluster_view_download(request, cluster):
+    cluster_objs = ClusterMatrixDefinitive.objects.filter(cluster_slug=cluster).order_by('adjusted_p_value')
+    return generate_response_csv(cluster_objs, ClusterMatrixDefinitive, [
+        "matrix_name",
+        "transcripts_id",
+        "gene_id",
+        "enrichment",
+        "adjusted_p_value",
+        "description",
+    ])
 
 def datasets_used(request):
     return render(request, "datasets_used.html")
