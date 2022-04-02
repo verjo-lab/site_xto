@@ -4,7 +4,9 @@
 
 
 {% block container-central %}
+{% if cluster_slug %}
 <a href="{% url 'lncrnas_cluster_enrichment_download_view' cluster_slug %}">Download this table <i class="fa fa-download" id="download-button"></i></a>
+{% endif %}
 <p><b>Search for your SmLINC of interest (or for any other word) to retrieve expressed clusters:</b></p>
   {% render_table table %}
 {% endblock container-central %}
