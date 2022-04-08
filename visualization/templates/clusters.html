@@ -4,26 +4,23 @@
 {% block container-central %}
 <script src="extensions/toolbar/bootstrap-table-toolbar.js"></script>
 <style>
-.img-overlay-wrap {
-  position: relative;
-  display: inline-block; /* <= shrinks container to image size */
-}
-
 #layer1-4{
    opacity: 1 !important;
 }
 
-g {
+g > g.cluster-on{
+   opacity: 1 !important;
+   border: 1px solid red;
+}
+
+g > g {
    opacity: 0;
 }
 
-g:hover{
+g > g:hover, .cluster-on{
    opacity: 1;
 }
 
-.cluster-on{
-   opacity: 1 !important;
-}
 
 #clusters {
    border: 1px solid;
@@ -1641,11 +1638,16 @@ g:hover{
 </div>
 <script>
     $(document).ready(function(){
+       console.log("Comecou");
         $('input[type="checkbox"]').click(function(){
+         console.log("Clicou checkbox");
             if($(this).prop("checked") == true){
+               console.log("Clicou checkbox - eh true");
                $("#" + $(this).prop("name")).addClass("cluster-on");
+
             }
             else if($(this).prop("checked") == false){
+               console.log("Clicou checkbox - eh false");
                $("#" + $(this).prop("name")).removeClass("cluster-on");
             }
         });
