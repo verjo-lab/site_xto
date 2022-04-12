@@ -36,10 +36,14 @@ g > g:hover, .cluster-on{
    padding-left: 5px;
 }
 
+#logo{
+   height: 100px !important;
+   width: auto;
+}
+
 </style>
 <div class="col-md-12">
-  <h1>Clusters Data</h1>
-      <hr>
+  <h3>Clusters Data</h3>
   </div>
   <div class="row">
    <div class="col-md-3">
@@ -1663,26 +1667,21 @@ g > g:hover, .cluster-on{
     $(document).ready(function(){
        console.log("Comecou");
         $('input[type="checkbox"]').click(function(){
-         console.log("Clicou checkbox");
             if($(this).prop("checked") == true){
-               console.log("Clicou checkbox - eh true");
                $("#" + $(this).prop("name")).addClass("cluster-on");
-
             }
             else if($(this).prop("checked") == false){
-               console.log("Clicou checkbox - eh false");
                $("#" + $(this).prop("name")).removeClass("cluster-on");
             }
         });
         
-        $('g').click(function(){
+        $('g > g').click(function(){
             var id = $(this).attr("id");
-            console.log($(this).attr("id"));
-            if (!$('input[name="' + id + '"]').attr("checked")){
-               $('input[name="' + id + '"]').attr("checked", true);
+            if (!$('input[name="' + id + '"]').prop("checked")){
+               $('input[name="' + id + '"]').prop("checked", true);
                $("#" + id).addClass("cluster-on");
             } else {
-               $('input[name="' + id + '"]').attr("checked", false);
+               $('input[name="' + id + '"]').prop("checked", false);
                $("#" + id).removeClass("cluster-on");
             }
          });
