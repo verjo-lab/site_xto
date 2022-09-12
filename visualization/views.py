@@ -38,7 +38,7 @@ def lncrna_cluster_search(request):
     table = SmLincExpression()
     return render(request, "schisto_cyte.html", {
         'table': table,
-        'page_title': "<i>Schistosoma mansoni</i> Cyto Cluster",
+        'page_title': "<i>Schistosoma mansoni</i> lncRNAs Database",
     })
 
 def lncrnas_cluster_view(request, matrix_name):
